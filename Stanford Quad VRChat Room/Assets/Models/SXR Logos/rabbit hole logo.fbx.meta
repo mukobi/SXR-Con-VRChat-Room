@@ -35,7 +35,12 @@ ModelImporter:
     4300004: Mouth cutter
     4300006: SXR Logo Square Lopoly
     2186277476908879412: ImportLogs
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: a6cf1f3e05635a54eb4dd52eb1a23cf2, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
