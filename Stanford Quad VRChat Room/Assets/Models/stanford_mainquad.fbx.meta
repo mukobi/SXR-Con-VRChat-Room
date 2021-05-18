@@ -35,6 +35,8 @@ ModelImporter:
     100058: //RootNode
     100060: yellow-walls
     100062: Ground Collision Plane
+    100064: Sun
+    100066: Plane
     400000: BuildingMesh-00068
     400002: BuildingMesh-00079
     400004: BuildingMesh-00080
@@ -67,6 +69,8 @@ ModelImporter:
     400058: //RootNode
     400060: yellow-walls
     400062: Ground Collision Plane
+    400064: Sun
+    400066: Plane
     2100000: BuildingMat-00068
     2100002: BuildingMat-00029
     2100004: BuildingMat-00031
@@ -218,6 +222,7 @@ ModelImporter:
     2300056: red-roofs
     2300058: yellow-walls
     2300060: Ground Collision Plane
+    2300062: Plane
     3300000: BuildingMesh-00068
     3300002: BuildingMesh-00079
     3300004: BuildingMesh-00080
@@ -249,6 +254,7 @@ ModelImporter:
     3300056: red-roofs
     3300058: yellow-walls
     3300060: Ground Collision Plane
+    3300062: Plane
     4300000: BuildingMesh-00068
     4300002: BuildingMesh-00079
     4300004: BuildingMesh-00080
@@ -280,6 +286,8 @@ ModelImporter:
     4300056: fountain.003
     4300058: ground
     4300060: Ground Collision Plane
+    4300062: Plane
+    10800000: Sun
     2186277476908879412: ImportLogs
   externalObjects:
   - first:
