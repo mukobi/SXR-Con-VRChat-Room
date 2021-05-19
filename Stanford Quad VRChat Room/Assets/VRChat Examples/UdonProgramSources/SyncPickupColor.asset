@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f11136daadff0b44ac2278a314682ab, type: 3}
   m_Name: SyncPickupColor
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: 1785f01de383dbf47a2b1deb3ce1a40d,
+  serializedUdonProgramAsset: {fileID: 11400000, guid: 2c1af4873897bb340968eed1673bcd43,
     type: 2}
   udonAssembly: ".data_start\r\n\r\n    .export fromColor\r\n    .export targetRenderer\r\n
     \   .export toColor\r\n    .export pickup\r\n    .sync syncColor, smooth\r\n    \r\n
@@ -34,15 +34,16 @@ MonoBehaviour:
     instance_1\r\n        PUSH, Boolean_2\r\n        EXTERN, \"VRCSDK3ComponentsVRCPickup.__get_IsHeld__SystemBoolean\"\r\n
     \       PUSH, Boolean_1\r\n        PUSH, Boolean_2\r\n        PUSH, Boolean_0\r\n
     \       EXTERN, \"SystemBoolean.__op_ConditionalAnd__SystemBoolean_SystemBoolean__SystemBoolean\"\r\n
-    \       PUSH, Boolean_0\r\n        JUMP_IF_FALSE, 0x0000F8\r\n        PUSH, f_0\r\n
-    \       EXTERN, \"UnityEngineTime.__get_time__SystemSingle\"\r\n        PUSH,
+    \       PUSH, Boolean_0\r\n        JUMP_IF_FALSE, 0x0000010C\r\n        PUSH,
+    f_0\r\n        EXTERN, \"UnityEngineTime.__get_time__SystemSingle\"\r\n        PUSH,
     f_0\r\n        PUSH, t_0\r\n        EXTERN, \"UnityEngineMathf.__Sin__SystemSingle__SystemSingle\"\r\n
     \       PUSH, fromColor\r\n        PUSH, toColor\r\n        PUSH, t_0\r\n        PUSH,
     syncColor\r\n        EXTERN, \"UnityEngineColor.__LerpUnclamped__UnityEngineColor_UnityEngineColor_SystemSingle__UnityEngineColor\"\r\n
-    \       JUMP, 0x0000F8\r\n        PUSH, targetRenderer\r\n        PUSH, instance_3\r\n
-    \       COPY\r\n        PUSH, instance_3\r\n        PUSH, instance_2\r\n        EXTERN,
-    \"UnityEngineRenderer.__get_material__UnityEngineMaterial\"\r\n        PUSH, instance_2\r\n
-    \       PUSH, name_0\r\n        PUSH, syncColor\r\n        EXTERN, \"UnityEngineMaterial.__SetColor__SystemString_UnityEngineColor__SystemVoid\"\r\n
+    \       PUSH, syncColor\r\n        PUSH, syncColor\r\n        COPY\r\n        JUMP,
+    0x0000010C\r\n        PUSH, targetRenderer\r\n        PUSH, instance_3\r\n        COPY\r\n
+    \       PUSH, instance_3\r\n        PUSH, instance_2\r\n        EXTERN, \"UnityEngineRenderer.__get_material__UnityEngineMaterial\"\r\n
+    \       PUSH, instance_2\r\n        PUSH, name_0\r\n        PUSH, syncColor\r\n
+    \       EXTERN, \"UnityEngineMaterial.__SetColor__SystemString_UnityEngineColor__SystemVoid\"\r\n
     \       JUMP, 0xFFFFFFFC\r\n    \r\n\r\n.code_end\r\n"
   assemblyError: 
   graphData:
@@ -331,6 +332,7 @@ MonoBehaviour:
       nodeValues:
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|60251231-64b1-42e1-a0cd-664ceed1e498
+    updateOrder: 0
   graphElementData:
   - type: 2
     uid: f3743949-b448-4f18-a842-6ebb1c181256
