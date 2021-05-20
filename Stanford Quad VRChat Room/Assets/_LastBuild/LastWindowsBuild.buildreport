@@ -10,7 +10,7 @@ BuildReport:
   m_Summary:
     buildStartTime:
       serializedVersion: 2
-      ticks: 637571022200615087
+      ticks: 637571024260175338
     buildGUID: 00000000000000000000000000000000
     platformName: Win64
     platformGroupName: Standalone
@@ -18,9 +18,9 @@ BuildReport:
     assetBundleOptions: 32
     outputPath: C:/Users/Gabe/AppData/Local/Temp/DefaultCompany/Stanford Quad VRChat
       Room/scene-standalonewindows64-stanford quad.vrcw
-    crc: 3532763943
-    totalSize: 57827032
-    totalTimeTicks: 675870528
+    crc: 3127340906
+    totalSize: 57837476
+    totalTimeTicks: 679140832
     totalErrors: 0
     totalWarnings: 0
     buildType: 1
@@ -30,12 +30,12 @@ BuildReport:
       Room/scene-standalonewindows64-stanford quad.vrcw/BuildPlayer-Stanford Quad
     role: Scene
     id: 0
-    totalSize: 2303608
+    totalSize: 2337736
   - path: C:/Users/Gabe/Documents/GitHub/Clubs/SXR-Con-VRChat-Room/Stanford Quad VRChat
       Room/scene-standalonewindows64-stanford quad.vrcw/BuildPlayer-Stanford Quad.sharedAssets
     role: SharedAssets
     id: 1
-    totalSize: 210369232
+    totalSize: 210372464
   - path: C:/Users/Gabe/Documents/GitHub/Clubs/SXR-Con-VRChat-Room/Stanford Quad VRChat
       Room/scene-standalonewindows64-stanford quad.vrcw/BuildPlayer-Stanford Quad.resource
     role: StreamingResourceFile
@@ -45,7 +45,7 @@ BuildReport:
       Room/scene-standalonewindows64-stanford quad.vrcw
     role: AssetBundle
     id: 3
-    totalSize: 57822058
+    totalSize: 57832504
   - path: C:/Users/Gabe/Documents/GitHub/Clubs/SXR-Con-VRChat-Room/Stanford Quad VRChat
       Room/scene-standalonewindows64-stanford quad.vrcw.manifest
     role: AssetBundleTextManifest
@@ -60,96 +60,70 @@ BuildReport:
       Room/Stanford Quad VRChat Room
     role: ManifestAssetBundle
     id: 6
-    totalSize: 1037
+    totalSize: 1036
   - path: C:/Users/Gabe/Documents/GitHub/Clubs/SXR-Con-VRChat-Room/Stanford Quad VRChat
       Room/Stanford Quad VRChat Room.manifest
     role: AssetBundleTextManifest
     id: 7
-    totalSize: 172
+    totalSize: 171
   m_BuildSteps:
   - stepName: Build Asset Bundles
-    durationTicks: 675870528
+    durationTicks: 679140832
     depth: 0
     messages: []
   - stepName: Calculate asset bundles to be built
-    durationTicks: 313611
+    durationTicks: 429775
     depth: 1
     messages: []
   - stepName: Compile scripts
-    durationTicks: 22008604
+    durationTicks: 22840629
     depth: 1
     messages: []
   - stepName: Build player
-    durationTicks: 547477227
+    durationTicks: 550348823
     depth: 1
     messages: []
   - stepName: Prepare assets for target platform
-    durationTicks: 150312
+    durationTicks: 206788
     depth: 2
     messages: []
   - stepName: Prepare splash screen
-    durationTicks: 7
+    durationTicks: 6
     depth: 2
     messages: []
   - stepName: Building scenes
-    durationTicks: 156165712
+    durationTicks: 153674058
     depth: 2
     messages: []
   - stepName: Building scene Assets/Scenes/Stanford Quad.unity
-    durationTicks: 156165684
+    durationTicks: 153674017
     depth: 3
     messages: []
   - stepName: Writing asset files
-    durationTicks: 18862806
+    durationTicks: 19009765
     depth: 2
     messages: []
   - stepName: Packaging assets - archive:/BuildPlayer-Stanford Quad/BuildPlayer-Stanford
       Quad.sharedAssets
-    durationTicks: 18825974
+    durationTicks: 18973717
     depth: 3
     messages: []
   - stepName: Creating compressed player package
-    durationTicks: 357918895
+    durationTicks: 362977492
     depth: 2
     messages: []
   - stepName: Postprocess built player
-    durationTicks: 110397
+    durationTicks: 115551
     depth: 2
     messages: []
   m_Appendices:
-  - {fileID: 4282348398072368288}
-  - {fileID: 1126835342382224152}
-  - {fileID: 1126311697400508356}
-  - {fileID: 3324437307038690114}
-  - {fileID: 4190729890512358846}
-  - {fileID: 1126666732414748856}
---- !u!1126 &1126311697400508356
-PackedAssets:
-  m_File: 2
-  m_ShortPath: BuildPlayer-Stanford Quad.resource
-  m_Overhead: 0
-  m_Contents:
-  - fileID: 0
-    classID: 83
-    packedSize: 272608
-    sourceAssetGUID: fa344bc7bf384ef4b89aa880c55b5af0
-    buildTimeAssetPath: Assets/Sounds/536219__ambientsoundapp__bicycles-passing.wav
-  - fileID: 0
-    classID: 83
-    packedSize: 933632
-    sourceAssetGUID: 3ca27ad294812cc4fbaf68a9b401accb
-    buildTimeAssetPath: Assets/Sounds/mixkit-calm-park-with-people-and-children-367.wav
-  - fileID: 0
-    classID: 83
-    packedSize: 1152160
-    sourceAssetGUID: dad42e6e31eb38642b5f321dbae9a346
-    buildTimeAssetPath: Assets/Sounds/444904__mars-98__park-ambience.wav
-  - fileID: 0
-    classID: 83
-    packedSize: 1274848
-    sourceAssetGUID: b46fc8568c912464d95ec9226194742b
-    buildTimeAssetPath: Assets/Sounds/328138__kasperaugusttopp__traffic-1-bikes-cars.wav
---- !u!1126 &1126666732414748856
+  - {fileID: 4282348397378009636}
+  - {fileID: 1126836500813176870}
+  - {fileID: 1126939296585023868}
+  - {fileID: 3324437309530847244}
+  - {fileID: 4190729889664038588}
+  - {fileID: 1126190334353465226}
+--- !u!1126 &1126190334353465226
 PackedAssets:
   m_File: 5
   m_ShortPath: CAB-4e5e03382a04772bbbb9956d6af0ae0f
@@ -165,15 +139,15 @@ PackedAssets:
     packedSize: 112
     sourceAssetGUID: 00000000000000000000000000000000
     buildTimeAssetPath: 'Built-in AssetBundleManifest: AssetBundleManifest'
---- !u!1126 &1126835342382224152
+--- !u!1126 &1126836500813176870
 PackedAssets:
   m_File: 1
   m_ShortPath: BuildPlayer-Stanford Quad.sharedAssets
-  m_Overhead: 78581
+  m_Overhead: 78601
   m_Contents:
   - fileID: 1
     classID: 150
-    packedSize: 133
+    packedSize: 121
     sourceAssetGUID: 00000000000000000000000000000000
     buildTimeAssetPath: 
   - fileID: 2
@@ -1717,134 +1691,134 @@ PackedAssets:
     buildTimeAssetPath: Assets/KurotoriUdonKart/Models/UdonKart.fbx
   - fileID: 309
     classID: 43
-    packedSize: 5855716
+    packedSize: 3224
     sourceAssetGUID: 563fd8272675074469437f7b724690a5
     buildTimeAssetPath: Assets/Models/stanford_mainquad.fbx
   - fileID: 310
     classID: 43
-    packedSize: 892
+    packedSize: 5855716
     sourceAssetGUID: 563fd8272675074469437f7b724690a5
     buildTimeAssetPath: Assets/Models/stanford_mainquad.fbx
   - fileID: 311
     classID: 43
-    packedSize: 640
+    packedSize: 892
     sourceAssetGUID: 563fd8272675074469437f7b724690a5
     buildTimeAssetPath: Assets/Models/stanford_mainquad.fbx
   - fileID: 312
+    classID: 43
+    packedSize: 640
+    sourceAssetGUID: 563fd8272675074469437f7b724690a5
+    buildTimeAssetPath: Assets/Models/stanford_mainquad.fbx
+  - fileID: 313
     classID: 48
     packedSize: 21280
     sourceAssetGUID: 0000000000000000f000000000000000
     buildTimeAssetPath: Resources/unity_builtin_extra
-  - fileID: 313
+  - fileID: 314
     classID: 48
     packedSize: 3113568
     sourceAssetGUID: 0000000000000000f000000000000000
     buildTimeAssetPath: Resources/unity_builtin_extra
-  - fileID: 314
+  - fileID: 315
     classID: 48
     packedSize: 5480
     sourceAssetGUID: 0000000000000000f000000000000000
     buildTimeAssetPath: Resources/unity_builtin_extra
-  - fileID: 315
+  - fileID: 316
     classID: 48
     packedSize: 5768
     sourceAssetGUID: 62d10ee450fd6014e996fd22f73c5baa
     buildTimeAssetPath: Assets/QvPen/Shader/rounded_trail_for_qv_pen.shader
-  - fileID: 316
+  - fileID: 317
     classID: 48
     packedSize: 4824
     sourceAssetGUID: 693137b858e4dc64c83be531351f45e6
     buildTimeAssetPath: Assets/VRCSDK/Sample Assets/Shaders/Mirror.shader
-  - fileID: 317
+  - fileID: 318
     classID: 48
     packedSize: 6220
     sourceAssetGUID: 8b39b95ac85682040beff730e0cfc77a
     buildTimeAssetPath: Assets/VRCSDK/Sample Assets/Shaders/Mobile/VRChat-Mobile-Particle-Alpha.shader
-  - fileID: 318
+  - fileID: 319
     classID: 48
     packedSize: 199520
     sourceAssetGUID: 9ae8ad653e1d98940bbc79866b9170f3
     buildTimeAssetPath: Assets/VRCSDK/Sample Assets/Shaders/VRChat-Sprites-Diffuse.shader
-  - fileID: 319
+  - fileID: 320
     classID: 48
     packedSize: 4184
     sourceAssetGUID: c0d3cb006bb294142bef136f492f2568
     buildTimeAssetPath: Assets/VRCSDK/Sample Assets/Shaders/Mobile/VRChat-Mobile-Skybox.shader
-  - fileID: 320
+  - fileID: 321
     classID: 48
     packedSize: 21484
     sourceAssetGUID: fe393ace9b354375a9cb14cdbbc28be4
     buildTimeAssetPath: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
-  - fileID: 321
+  - fileID: 322
     classID: 49
     packedSize: 24
     sourceAssetGUID: 5b3d8961b3eb9c748b9157f0f6b0d435
     buildTimeAssetPath: Assets/QvPen/version.txt
-  - fileID: 322
+  - fileID: 323
     classID: 83
     packedSize: 180
     sourceAssetGUID: 3ca27ad294812cc4fbaf68a9b401accb
     buildTimeAssetPath: Assets/Sounds/mixkit-calm-park-with-people-and-children-367.wav
-  - fileID: 323
+  - fileID: 324
     classID: 83
     packedSize: 180
     sourceAssetGUID: b46fc8568c912464d95ec9226194742b
     buildTimeAssetPath: Assets/Sounds/328138__kasperaugusttopp__traffic-1-bikes-cars.wav
-  - fileID: 324
+  - fileID: 325
     classID: 83
     packedSize: 164
     sourceAssetGUID: dad42e6e31eb38642b5f321dbae9a346
     buildTimeAssetPath: Assets/Sounds/444904__mars-98__park-ambience.wav
-  - fileID: 325
+  - fileID: 326
     classID: 83
     packedSize: 176
     sourceAssetGUID: fa344bc7bf384ef4b89aa880c55b5af0
     buildTimeAssetPath: Assets/Sounds/536219__ambientsoundapp__bicycles-passing.wav
-  - fileID: 326
+  - fileID: 327
     classID: 89
     packedSize: 4194576
     sourceAssetGUID: 24ad7821f1906334db0fe9369ab1b359
     buildTimeAssetPath: Assets/Scenes/Stanford Quad/ReflectionProbe-2.png
-  - fileID: 327
+  - fileID: 328
     classID: 89
     packedSize: 4194576
     sourceAssetGUID: 6993ad7718506854d9070205b1d2a813
     buildTimeAssetPath: Assets/Scenes/Stanford Quad/ReflectionProbe-0.png
-  - fileID: 328
+  - fileID: 329
     classID: 89
     packedSize: 4194576
     sourceAssetGUID: aa822502bcda2764887c2ead8f98145c
     buildTimeAssetPath: Assets/Scenes/Stanford Quad/ReflectionProbe-1.png
-  - fileID: 329
+  - fileID: 330
     classID: 89
     packedSize: 6291644
     sourceAssetGUID: ed02c437a13f2df4cba21bd4de277f20
     buildTimeAssetPath: Assets/Textures/stanford hdri.exr
-  - fileID: 330
+  - fileID: 331
     classID: 89
     packedSize: 131424
     sourceAssetGUID: ffe7311e8fc65f344b7896ee9938ce6c
     buildTimeAssetPath: Assets/Scenes/Stanford Quad/ReflectionProbe-3.exr
-  - fileID: 331
+  - fileID: 332
     classID: 115
     packedSize: 100
     sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
     buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCSDK3.dll
-  - fileID: 332
+  - fileID: 333
     classID: 115
     packedSize: 92
     sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
     buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCSDK3.dll
-  - fileID: 333
+  - fileID: 334
     classID: 115
     packedSize: 96
     sourceAssetGUID: 4ecd63eff847044b68db9453ce219299
     buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCCore-Editor.dll
-  - fileID: 334
-    classID: 115
-    packedSize: 88
-    sourceAssetGUID: f70555f144d8491a825f0804e09c671c
-    buildTimeAssetPath: C:/Program Files/Unity/Hub/Editor/2018.4.20f1/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll
   - fileID: 335
     classID: 115
     packedSize: 88
@@ -1852,267 +1826,298 @@ PackedAssets:
     buildTimeAssetPath: C:/Program Files/Unity/Hub/Editor/2018.4.20f1/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll
   - fileID: 336
     classID: 115
-    packedSize: 104
+    packedSize: 88
     sourceAssetGUID: f70555f144d8491a825f0804e09c671c
     buildTimeAssetPath: C:/Program Files/Unity/Hub/Editor/2018.4.20f1/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll
   - fileID: 337
     classID: 115
-    packedSize: 116
-    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
-    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCSDK3.dll
+    packedSize: 104
+    sourceAssetGUID: f70555f144d8491a825f0804e09c671c
+    buildTimeAssetPath: C:/Program Files/Unity/Hub/Editor/2018.4.20f1/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll
   - fileID: 338
     classID: 115
-    packedSize: 108
+    packedSize: 116
     sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
     buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCSDK3.dll
   - fileID: 339
     classID: 115
+    packedSize: 108
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 340
+    classID: 115
     packedSize: 88
     sourceAssetGUID: f70555f144d8491a825f0804e09c671c
     buildTimeAssetPath: C:/Program Files/Unity/Hub/Editor/2018.4.20f1/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll
-  - fileID: 340
+  - fileID: 341
     classID: 115
     packedSize: 108
     sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
     buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCSDK3.dll
-  - fileID: 341
+  - fileID: 342
     classID: 115
     packedSize: 88
     sourceAssetGUID: 45115577ef41a5b4ca741ed302693907
     buildTimeAssetPath: Assets/Udon/UdonBehaviour.cs
-  - fileID: 342
+  - fileID: 343
     classID: 115
     packedSize: 100
     sourceAssetGUID: 71c1514a6bd24e1e882cebbe1904ce04
     buildTimeAssetPath: Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_FontAsset.cs
-  - fileID: 343
+  - fileID: 344
     classID: 115
     packedSize: 92
     sourceAssetGUID: 9541d86e2fd84c1d9990edf0852d74ab
     buildTimeAssetPath: Packages/com.unity.textmeshpro/Scripts/Runtime/TextMeshPro.cs
-  - fileID: 344
+  - fileID: 345
     classID: 115
     packedSize: 128
     sourceAssetGUID: bf61d954ecb803046953c666facfb904
     buildTimeAssetPath: Assets/Udon/ProgramSources/SerializedUdonProgramAsset.cs
-  - fileID: 345
+  - fileID: 346
     classID: 115
     packedSize: 80
     sourceAssetGUID: f70555f144d8491a825f0804e09c671c
     buildTimeAssetPath: C:/Program Files/Unity/Hub/Editor/2018.4.20f1/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll
-  - fileID: 346
+  - fileID: 347
     classID: 115
     packedSize: 92
     sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
     buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCSDK3.dll
-  - fileID: 347
+  - fileID: 348
     classID: 115
     packedSize: 128
     sourceAssetGUID: f70555f144d8491a825f0804e09c671c
     buildTimeAssetPath: C:/Program Files/Unity/Hub/Editor/2018.4.20f1/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll
-  - fileID: 348
+  - fileID: 349
     classID: 115
     packedSize: 104
     sourceAssetGUID: f70555f144d8491a825f0804e09c671c
     buildTimeAssetPath: C:/Program Files/Unity/Hub/Editor/2018.4.20f1/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll
-  - fileID: 349
+  - fileID: 350
     classID: 115
     packedSize: 88
     sourceAssetGUID: f70555f144d8491a825f0804e09c671c
     buildTimeAssetPath: C:/Program Files/Unity/Hub/Editor/2018.4.20f1/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll
-  - fileID: 350
+  - fileID: 351
     classID: 115
     packedSize: 92
     sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
     buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCSDK3.dll
-  - fileID: 351
+  - fileID: 352
     classID: 115
     packedSize: 96
     sourceAssetGUID: f70555f144d8491a825f0804e09c671c
     buildTimeAssetPath: C:/Program Files/Unity/Hub/Editor/2018.4.20f1/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll
-  - fileID: 352
+  - fileID: 353
     classID: 128
     packedSize: 656686
     sourceAssetGUID: 98baae691215eb546a697ff7d942a5bb
     buildTimeAssetPath: Assets/Udon/ReferenceDocs/_static/fonts/Lato-Regular.ttf
-  - fileID: 353
+  - fileID: 354
     classID: 128
     packedSize: 656674
     sourceAssetGUID: d8a7948bc83b01f45ab5078c10dd8e04
     buildTimeAssetPath: Assets/Udon/ReferenceDocs/_static/fonts/Lato-Bold.ttf
-  - fileID: 354
+  - fileID: 355
     classID: 128
     packedSize: 352462
     sourceAssetGUID: e3265ab4bf004d28a9537516768c1c75
     buildTimeAssetPath: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
-  - fileID: 355
+  - fileID: 356
     classID: 134
     packedSize: 36
     sourceAssetGUID: ebd513f343f97434294f4d0e3d56cbda
     buildTimeAssetPath: Assets/Physics/pm_Bouncy.physicMaterial
-  - fileID: 356
+  - fileID: 357
     classID: 213
     packedSize: 564
     sourceAssetGUID: 0000000000000000f000000000000000
     buildTimeAssetPath: Resources/unity_builtin_extra
-  - fileID: 357
+  - fileID: 358
     classID: 213
     packedSize: 568
     sourceAssetGUID: 0000000000000000f000000000000000
     buildTimeAssetPath: Resources/unity_builtin_extra
-  - fileID: 358
+  - fileID: 359
     classID: 213
     packedSize: 628
     sourceAssetGUID: 0000000000000000f000000000000000
     buildTimeAssetPath: Resources/unity_builtin_extra
-  - fileID: 359
+  - fileID: 360
     classID: 258
     packedSize: 40
     sourceAssetGUID: 98b85551e94f40949871cdc3589ad537
     buildTimeAssetPath: Assets/Scenes/Stanford Quad/LightingData.asset
-  - fileID: 360
+  - fileID: 361
     classID: 363
     packedSize: 777856
     sourceAssetGUID: 38b9123220c8c9b478d3c7abb404033d
     buildTimeAssetPath: Assets/Scenes/Stanford Quad/OcclusionCullingData.asset
-  - fileID: 361
+  - fileID: 362
     classID: 114
     packedSize: 65188
     sourceAssetGUID: 61cd7479c689cbc40b60c91bc213685c
     buildTimeAssetPath: Assets/SerializedUdonPrograms/0133057ca1dddce45824d0aa942ebc3a.asset
-  - fileID: 362
+  - fileID: 363
     classID: 114
     packedSize: 16972
     sourceAssetGUID: f892fa6836e860e499aaba02a062e877
     buildTimeAssetPath: Assets/SerializedUdonPrograms/030f91795ebbbad45946bef49d7c3ffb.asset
-  - fileID: 363
+  - fileID: 364
     classID: 114
     packedSize: 208056
     sourceAssetGUID: 952b69ce70211ec46bed5f588545f497
     buildTimeAssetPath: Assets/SerializedUdonPrograms/1064dc79ec16c944793e0bfc45718c46.asset
-  - fileID: 364
+  - fileID: 365
     classID: 114
     packedSize: 46920
     sourceAssetGUID: c39fd7b9ffd645541b4374193103d9ff
     buildTimeAssetPath: Assets/SerializedUdonPrograms/13c9658a51a2e2440afc579648651cd7.asset
-  - fileID: 365
+  - fileID: 366
     classID: 114
     packedSize: 52424
     sourceAssetGUID: fe16e6b5123857f4c895b683ee46ced5
     buildTimeAssetPath: Assets/SerializedUdonPrograms/34717db7eb8e04a40ac14cc45cf29bcb.asset
-  - fileID: 366
+  - fileID: 367
     classID: 114
     packedSize: 12496
     sourceAssetGUID: a94f52b9354a6194f829498c7d91fd72
     buildTimeAssetPath: Assets/SerializedUdonPrograms/409c3391a633abc4dbff1701d3e6152a.asset
-  - fileID: 367
+  - fileID: 368
     classID: 114
     packedSize: 36232
     sourceAssetGUID: dd681543775512040bfc589adbaf6468
     buildTimeAssetPath: Assets/SerializedUdonPrograms/4ef80657f5aad394ebfcd932d6327d02.asset
-  - fileID: 368
+  - fileID: 369
     classID: 114
     packedSize: 133624
     sourceAssetGUID: d84347c882959194a8f31c2b2b9f73a3
     buildTimeAssetPath: Assets/SerializedUdonPrograms/567020c04eb1f4b4ea28e29eded29ee3.asset
-  - fileID: 369
+  - fileID: 370
     classID: 114
     packedSize: 19272
     sourceAssetGUID: bf3e3f2ee93ceb54ab0ca2dc4fb82296
     buildTimeAssetPath: Assets/SerializedUdonPrograms/5adfb8009e746f34bb5c073ad139eff1.asset
-  - fileID: 370
+  - fileID: 371
     classID: 114
     packedSize: 167764
     sourceAssetGUID: de76961e807eb6542afaa6fc7049b536
     buildTimeAssetPath: Assets/SerializedUdonPrograms/7aec01fa2f964884d98233a8fffb1a44.asset
-  - fileID: 371
+  - fileID: 372
     classID: 114
     packedSize: 20536
     sourceAssetGUID: 0cc9e4c452079c74f8849735a563e848
     buildTimeAssetPath: Assets/SerializedUdonPrograms/80c0335f98d9b0f4da456ce13438c83c.asset
-  - fileID: 372
+  - fileID: 373
     classID: 114
     packedSize: 87508
     sourceAssetGUID: 300900f0083549b499cc67d20a3b1f2b
     buildTimeAssetPath: Assets/SerializedUdonPrograms/80df79815ac3b494592c5da022afd2cf.asset
-  - fileID: 373
+  - fileID: 374
     classID: 114
     packedSize: 27576
     sourceAssetGUID: 810eeb6ff49b34a449ab55ef4f8d4270
     buildTimeAssetPath: Assets/SerializedUdonPrograms/8790eacaf133fc349970690de2dfa744.asset
-  - fileID: 374
+  - fileID: 375
     classID: 114
     packedSize: 13740
     sourceAssetGUID: 97b514c963717324ebd7748fcdda4b0a
     buildTimeAssetPath: Assets/SerializedUdonPrograms/8f08002415518a74a965b4d882a3211c.asset
-  - fileID: 375
+  - fileID: 376
     classID: 114
     packedSize: 31396
     sourceAssetGUID: 2f1d03f2f04828c42886199864be1759
     buildTimeAssetPath: Assets/SerializedUdonPrograms/936c71672a143ee46afaa4a027974094.asset
-  - fileID: 376
+  - fileID: 377
     classID: 114
     packedSize: 59064
     sourceAssetGUID: ea8905c0f3244ae409d91af7295f39ff
     buildTimeAssetPath: Assets/SerializedUdonPrograms/9ee458d0096dbfb4587d59a7fc4e9149.asset
-  - fileID: 377
+  - fileID: 378
     classID: 114
     packedSize: 35120
     sourceAssetGUID: 59f9fc4b347631048ab6fbd7f8acbee8
     buildTimeAssetPath: Assets/SerializedUdonPrograms/b1da3d0a1d171a9479f5df36efb95369.asset
-  - fileID: 378
+  - fileID: 379
     classID: 114
     packedSize: 25860
     sourceAssetGUID: 972e08ad03d0bf74fb93dca2af748d8d
     buildTimeAssetPath: Assets/SerializedUdonPrograms/b813374c1e9cb9f458d11544b12dabe3.asset
-  - fileID: 379
+  - fileID: 380
     classID: 114
     packedSize: 16088
     sourceAssetGUID: 07950f9aa0b26244d925470610ca03f3
     buildTimeAssetPath: Assets/SerializedUdonPrograms/c8df303ceb45ae84f85a11591f741734.asset
-  - fileID: 380
+  - fileID: 381
     classID: 114
     packedSize: 40572
     sourceAssetGUID: 0ba26559e1ae35a4ababaf7edaad6352
     buildTimeAssetPath: Assets/SerializedUdonPrograms/c94f9c25e428bc341906e24997f7cf37.asset
-  - fileID: 381
+  - fileID: 382
     classID: 114
     packedSize: 46624
     sourceAssetGUID: 34932b5849d974844b7f616b8485e1cd
     buildTimeAssetPath: Assets/SerializedUdonPrograms/e24c19eb034a4054b96ad3a9240d8283.asset
-  - fileID: 382
+  - fileID: 383
     classID: 114
     packedSize: 12856
     sourceAssetGUID: f435592acadff5b4c97f6ee74ee7a2eb
     buildTimeAssetPath: Assets/SerializedUdonPrograms/e5e88b548c2e8d944a6ae4f342c78071.asset
-  - fileID: 383
+  - fileID: 384
     classID: 114
     packedSize: 28048
     sourceAssetGUID: 1dc0f0b7be6e8c54fb4d2fa9232a5e06
     buildTimeAssetPath: Assets/SerializedUdonPrograms/ee6c775c585b4a1468681921d343c872.asset
-  - fileID: 384
+  - fileID: 385
     classID: 114
     packedSize: 11548
     sourceAssetGUID: 03066f1e0dea2084cbce1f866c4ef4f7
     buildTimeAssetPath: Assets/SerializedUdonPrograms/f296ecebae0e89d4aa54d10057071c6f.asset
-  - fileID: 385
+  - fileID: 386
     classID: 114
     packedSize: 30016
     sourceAssetGUID: 5e3910ef939917647b6c3317aa71e225
     buildTimeAssetPath: Assets/SerializedUdonPrograms/f476772bf1db9c24a817ee4b2627c5d0.asset
-  - fileID: 386
+  - fileID: 387
     classID: 114
     packedSize: 1144
     sourceAssetGUID: 2e498d1c8094910479dc3e1b768306a4
     buildTimeAssetPath: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans
       SDF - Fallback.asset
-  - fileID: 387
+  - fileID: 388
     classID: 114
     packedSize: 27752
     sourceAssetGUID: 8f586378b4e144a9851e7b34d9b748ee
     buildTimeAssetPath: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans
       SDF.asset
---- !u!382020655 &3324437307038690114
+--- !u!1126 &1126939296585023868
+PackedAssets:
+  m_File: 2
+  m_ShortPath: BuildPlayer-Stanford Quad.resource
+  m_Overhead: 0
+  m_Contents:
+  - fileID: 0
+    classID: 83
+    packedSize: 272608
+    sourceAssetGUID: fa344bc7bf384ef4b89aa880c55b5af0
+    buildTimeAssetPath: Assets/Sounds/536219__ambientsoundapp__bicycles-passing.wav
+  - fileID: 0
+    classID: 83
+    packedSize: 933632
+    sourceAssetGUID: 3ca27ad294812cc4fbaf68a9b401accb
+    buildTimeAssetPath: Assets/Sounds/mixkit-calm-park-with-people-and-children-367.wav
+  - fileID: 0
+    classID: 83
+    packedSize: 1152160
+    sourceAssetGUID: dad42e6e31eb38642b5f321dbae9a346
+    buildTimeAssetPath: Assets/Sounds/444904__mars-98__park-ambience.wav
+  - fileID: 0
+    classID: 83
+    packedSize: 1274848
+    sourceAssetGUID: b46fc8568c912464d95ec9226194742b
+    buildTimeAssetPath: Assets/Sounds/328138__kasperaugusttopp__traffic-1-bikes-cars.wav
+--- !u!382020655 &3324437309530847244
 PluginBuildInfo:
   m_RuntimePlugins:
   - OVRPlugin
@@ -2180,12 +2185,12 @@ PluginBuildInfo:
   - UnityEditor.TestRunner
   - VRC.Udon.EditorBindings
   - UnityEditor.Timeline
---- !u!641289076 &4190729890512358846
+--- !u!641289076 &4190729889664038588
 AudioBuildInfo:
   m_IsAudioDisabled: 0
   m_AudioClipCount: 4
   m_AudioMixerCount: 0
---- !u!668709126 &4282348398072368288
+--- !u!668709126 &4282348397378009636
 BuiltAssetBundleInfoSet:
   bundleInfos:
   - bundleName: scene-standalonewindows64-stanford quad.vrcw
