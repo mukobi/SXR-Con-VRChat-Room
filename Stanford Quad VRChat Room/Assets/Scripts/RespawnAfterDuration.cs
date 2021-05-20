@@ -13,26 +13,25 @@ public class RespawnAfterDuration : UdonSharpBehaviour
     private bool canRespawn = false;
     private float timeOfLastDrop = 0.0f;
     private Rigidbody rb;
+    private VRC_Pickup pickup;
 
     void Start()
     {
         initialPosition = transform.position;
         initialRotation = transform.rotation;
         rb = GetComponent<Rigidbody>();
-        rb.isKinematic = true;
+        rb.Sleep();
     }
 
     public override void OnPickup()
     {
         canRespawn = false;
-        rb.isKinematic = false;
     }
 
     public override void OnDrop()
     {
         timeOfLastDrop = Time.time;
         canRespawn = true;
-        rb.isKinematic = false;
     }
 
     private void Update()
@@ -46,7 +45,7 @@ public class RespawnAfterDuration : UdonSharpBehaviour
     private void Respawn()
     {
         canRespawn = false;
-        rb.isKinematic = true;
+        rb.Sleep();
         rb.velocity = Vector3.zero;
         rb.angularVelocity = Vector3.zero;
         transform.position = initialPosition;

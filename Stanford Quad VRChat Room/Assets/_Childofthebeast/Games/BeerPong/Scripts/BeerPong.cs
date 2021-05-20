@@ -14,15 +14,16 @@ public class BeerPong : UdonSharpBehaviour
 {
     public GameObject ParentOfCups;
     public GameObject Ball;
-    [UdonSynced]private int Cup;
+    [UdonSynced]private int lastCupHitIndex;
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.transform.parent == ParentOfCups.transform) 
         {
-            //Cup = other.transform.GetSiblingIndex();
-            //SendCustomNetworkEvent(VRC.Udon.Common.Interfaces.NetworkEventTarget.All, "DespawnCup");
+            lastCupHitIndex = other.transform.GetSiblingIndex();
+            SendCustomNetworkEvent(VRC.Udon.Common.Interfaces.NetworkEventTarget.All, "DespawnCup");
             other.gameObject.SetActive(false);
+            RespawnBall();
         }
     }
 
@@ -40,10 +41,12 @@ public class BeerPong : UdonSharpBehaviour
         Ball.GetComponent<Rigidbody>().velocity = Vector3.zero;
         Ball.transform.position = Ball_Spawn;
     }
+
     public void Network_RespawnCups()
     {
         SendCustomNetworkEvent(VRC.Udon.Common.Interfaces.NetworkEventTarget.All, "RespawnCups");
     }
+
     public void RespawnCups()
     {
         int cups = ParentOfCups.transform.childCount;
@@ -52,8 +55,9 @@ public class BeerPong : UdonSharpBehaviour
             ParentOfCups.transform.GetChild(v).gameObject.SetActive(true);
         }
     }
+
     public void DespawnCup()
     {
-        ParentOfCups.transform.GetChild(Cup).gameObject.SetActive(false);
+        ParentOfCups.transform.GetChild(lastCupHitIndex).gameObject.SetActive(false);
     }
 }
