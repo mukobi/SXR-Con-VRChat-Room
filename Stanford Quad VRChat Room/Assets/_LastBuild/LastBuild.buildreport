@@ -10,7 +10,7 @@ BuildReport:
   m_Summary:
     buildStartTime:
       serializedVersion: 2
-      ticks: 637571375038032395
+      ticks: 637571385351892216
     buildGUID: 00000000000000000000000000000000
     platformName: Win64
     platformGroupName: Standalone
@@ -18,9 +18,9 @@ BuildReport:
     assetBundleOptions: 32
     outputPath: C:/Users/Gabe/AppData/Local/Temp/DefaultCompany/Stanford Quad VRChat
       Room/scene-standalonewindows64-stanford quad.vrcw
-    crc: 2230100865
-    totalSize: 30000273
-    totalTimeTicks: 763892054
+    crc: 4169025661
+    totalSize: 30002043
+    totalTimeTicks: 765297388
     totalErrors: 0
     totalWarnings: 0
     buildType: 1
@@ -30,12 +30,12 @@ BuildReport:
       Room/scene-standalonewindows64-stanford quad.vrcw/BuildPlayer-Stanford Quad
     role: Scene
     id: 0
-    totalSize: 2224744
+    totalSize: 2215720
   - path: C:/Users/Gabe/Documents/GitHub/Clubs/SXR-Con-VRChat-Room/Stanford Quad VRChat
       Room/scene-standalonewindows64-stanford quad.vrcw/BuildPlayer-Stanford Quad.sharedAssets
     role: SharedAssets
     id: 1
-    totalSize: 73704440
+    totalSize: 73704728
   - path: C:/Users/Gabe/Documents/GitHub/Clubs/SXR-Con-VRChat-Room/Stanford Quad VRChat
       Room/scene-standalonewindows64-stanford quad.vrcw/BuildPlayer-Stanford Quad.resource
     role: StreamingResourceFile
@@ -45,7 +45,7 @@ BuildReport:
       Room/scene-standalonewindows64-stanford quad.vrcw
     role: AssetBundle
     id: 3
-    totalSize: 29995300
+    totalSize: 29997070
   - path: C:/Users/Gabe/Documents/GitHub/Clubs/SXR-Con-VRChat-Room/Stanford Quad VRChat
       Room/scene-standalonewindows64-stanford quad.vrcw.manifest
     role: AssetBundleTextManifest
@@ -68,62 +68,62 @@ BuildReport:
     totalSize: 172
   m_BuildSteps:
   - stepName: Build Asset Bundles
-    durationTicks: 763892054
+    durationTicks: 765297388
     depth: 0
     messages: []
   - stepName: Calculate asset bundles to be built
-    durationTicks: 336656
+    durationTicks: 361078
     depth: 1
     messages: []
   - stepName: Compile scripts
-    durationTicks: 19629710
+    durationTicks: 19173801
     depth: 1
     messages: []
   - stepName: Build player
-    durationTicks: 649864530
+    durationTicks: 651216118
     depth: 1
     messages: []
   - stepName: Prepare assets for target platform
-    durationTicks: 148606
+    durationTicks: 121617
     depth: 2
     messages: []
   - stepName: Prepare splash screen
-    durationTicks: 10
+    durationTicks: 5
     depth: 2
     messages: []
   - stepName: Building scenes
-    durationTicks: 468771930
+    durationTicks: 464588234
     depth: 2
     messages: []
   - stepName: Building scene Assets/Scenes/Stanford Quad.unity
-    durationTicks: 468771899
+    durationTicks: 464588204
     depth: 3
     messages: []
   - stepName: Writing asset files
-    durationTicks: 29659564
+    durationTicks: 27990699
     depth: 2
     messages: []
   - stepName: Packaging assets - archive:/BuildPlayer-Stanford Quad/BuildPlayer-Stanford
       Quad.sharedAssets
-    durationTicks: 29620977
+    durationTicks: 27956766
     depth: 3
     messages: []
   - stepName: Creating compressed player package
-    durationTicks: 135535752
+    durationTicks: 140174033
     depth: 2
     messages: []
   - stepName: Postprocess built player
-    durationTicks: 1353459
+    durationTicks: 4167012
     depth: 2
     messages: []
   m_Appendices:
-  - {fileID: 4282348398320781520}
-  - {fileID: 1126843135286276310}
-  - {fileID: 1126534085944494236}
-  - {fileID: 3324437308303235878}
-  - {fileID: 4190729890375367454}
-  - {fileID: 1126674537621563988}
---- !u!1126 &1126534085944494236
+  - {fileID: 4282348396354533110}
+  - {fileID: 1126059624489805390}
+  - {fileID: 1126056431287962984}
+  - {fileID: 3324437308191014672}
+  - {fileID: 4190729888068232624}
+  - {fileID: 1126768083062810762}
+--- !u!1126 &1126056431287962984
 PackedAssets:
   m_File: 2
   m_ShortPath: BuildPlayer-Stanford Quad.resource
@@ -149,23 +149,7 @@ PackedAssets:
     packedSize: 1274848
     sourceAssetGUID: b46fc8568c912464d95ec9226194742b
     buildTimeAssetPath: Assets/Sounds/328138__kasperaugusttopp__traffic-1-bikes-cars.wav
---- !u!1126 &1126674537621563988
-PackedAssets:
-  m_File: 5
-  m_ShortPath: CAB-4e5e03382a04772bbbb9956d6af0ae0f
-  m_Overhead: 4096
-  m_Contents:
-  - fileID: 1
-    classID: 142
-    packedSize: 104
-    sourceAssetGUID: 00000000000000000000000000000000
-    buildTimeAssetPath: AssetBundle Object
-  - fileID: 2
-    classID: 290
-    packedSize: 112
-    sourceAssetGUID: 00000000000000000000000000000000
-    buildTimeAssetPath: 'Built-in AssetBundleManifest: AssetBundleManifest'
---- !u!1126 &1126843135286276310
+--- !u!1126 &1126059624489805390
 PackedAssets:
   m_File: 1
   m_ShortPath: BuildPlayer-Stanford Quad.sharedAssets
@@ -1628,7 +1612,7 @@ PackedAssets:
     buildTimeAssetPath: Assets/Models/SXR Logos/sxr logo square.fbx
   - fileID: 291
     classID: 43
-    packedSize: 7293032
+    packedSize: 7293320
     sourceAssetGUID: 563fd8272675074469437f7b724690a5
     buildTimeAssetPath: Assets/Models/stanford_mainquad.fbx
   - fileID: 292
@@ -2138,7 +2122,23 @@ PackedAssets:
     sourceAssetGUID: 8f586378b4e144a9851e7b34d9b748ee
     buildTimeAssetPath: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans
       SDF.asset
---- !u!382020655 &3324437308303235878
+--- !u!1126 &1126768083062810762
+PackedAssets:
+  m_File: 5
+  m_ShortPath: CAB-4e5e03382a04772bbbb9956d6af0ae0f
+  m_Overhead: 4096
+  m_Contents:
+  - fileID: 1
+    classID: 142
+    packedSize: 104
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: AssetBundle Object
+  - fileID: 2
+    classID: 290
+    packedSize: 112
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 'Built-in AssetBundleManifest: AssetBundleManifest'
+--- !u!382020655 &3324437308191014672
 PluginBuildInfo:
   m_RuntimePlugins:
   - OVRPlugin
@@ -2206,12 +2206,12 @@ PluginBuildInfo:
   - UnityEditor.TestRunner
   - VRC.Udon.EditorBindings
   - UnityEditor.Timeline
---- !u!641289076 &4190729890375367454
+--- !u!641289076 &4190729888068232624
 AudioBuildInfo:
   m_IsAudioDisabled: 0
   m_AudioClipCount: 4
   m_AudioMixerCount: 0
---- !u!668709126 &4282348398320781520
+--- !u!668709126 &4282348396354533110
 BuiltAssetBundleInfoSet:
   bundleInfos:
   - bundleName: scene-standalonewindows64-stanford quad.vrcw
