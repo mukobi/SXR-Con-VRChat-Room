@@ -14,7 +14,7 @@ public class UdonCarSystem : UdonSharpBehaviour
     public WheelCollider rightRearWheel;
 
     public const float MAX_SPEED = 150.0f;          // 最大スピード
-    public const float MAX_MOTOR_TORQUE = 300;      // 最大モータートルク
+    public const float MAX_MOTOR_TORQUE = 350;      // 最大モータートルク
     public const float MAX_STEERING_ANGLE = 30;     // 最大ステアリング角度
     public const float MAX_STEERING_ANGLE_VR = 60.0f; // VRでの最大ステアリング角度
     public const float MAX_BRAKE_TORQUE = 100;      // 最大ブレーキトルク
@@ -100,13 +100,13 @@ public class UdonCarSystem : UdonSharpBehaviour
         {
             if (Networking.LocalPlayer.IsUserInVR())
             {
-                debugText.text += "LTrigger:Back RTrigger:Forward\n";
-                debugText.text += "Exit : Intaract Me!\n";
+                debugText.text += "LTrigger: Back RTrigger: Forward\n";
+                debugText.text += "Exit: Interact with Exit button\n";
             }
             else
             {
-                debugText.text += "WASD Control\n";
-                debugText.text += "Exit : Q Key\n";
+                debugText.text += "Throttle/steer: WASD Keys\n";
+                debugText.text += "Exit: Q Key\n";
             }
         }
     }
@@ -311,6 +311,7 @@ public class UdonCarSystem : UdonSharpBehaviour
 
     public void RestTransformNetwork()
     {
+        Debug.Log("RestTransformNetwork");
         SendCustomNetworkEvent(VRC.Udon.Common.Interfaces.NetworkEventTarget.Owner, "ResetTransform");
     }
 
@@ -320,7 +321,8 @@ public class UdonCarSystem : UdonSharpBehaviour
         VRHandle.ForceDrop();
         VRHandle.PickupDisable();
         VRHandle.ResetHandlePos();
-        usingStatusDisplay.SendCustomNetworkEvent(VRC.Udon.Common.Interfaces.NetworkEventTarget.Owner, "SetSeatedDisable");
+        if (usingStatusDisplay)
+            usingStatusDisplay.SendCustomNetworkEvent(VRC.Udon.Common.Interfaces.NetworkEventTarget.Owner, "SetSeatedDisable");
         carSeat.LeaveSeat();
     }
 
@@ -329,7 +331,9 @@ public class UdonCarSystem : UdonSharpBehaviour
         seated = true;
         VRHandle.PickupEnable();
         vrMode = Networking.LocalPlayer.IsUserInVR();
-        usingStatusDisplay.SendCustomNetworkEvent(VRC.Udon.Common.Interfaces.NetworkEventTarget.Owner, "SetSeatedEnable");
+        Debug.Log("usingStatusDisplay: " + (usingStatusDisplay == null));
+        if (usingStatusDisplay)
+            usingStatusDisplay.SendCustomNetworkEvent(VRC.Udon.Common.Interfaces.NetworkEventTarget.Owner, "SetSeatedEnable");
     }
 
     public bool GetSeated()
