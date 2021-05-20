@@ -17,6 +17,16 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: FrontColor
+    second: {fileID: 2100000, guid: 58657044bcb3ebc4aab7546f595f2682, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_0134_DimGray
+    second: {fileID: 2100000, guid: bd0f20c75ea9a414d91a457c183b6f5c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Translucent_Glass_Blue
     second: {fileID: 2100000, guid: 00d89351f4765864aac93d19b38b892b, type: 2}
   materials:
