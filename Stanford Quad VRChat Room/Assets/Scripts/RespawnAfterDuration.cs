@@ -20,7 +20,6 @@ public class RespawnAfterDuration : UdonSharpBehaviour
         initialPosition = transform.position;
         initialRotation = transform.rotation;
         rb = GetComponent<Rigidbody>();
-        rb.Sleep();
     }
 
     public override void OnPickup()
@@ -45,7 +44,6 @@ public class RespawnAfterDuration : UdonSharpBehaviour
     private void Respawn()
     {
         canRespawn = false;
-        rb.Sleep();
         rb.velocity = Vector3.zero;
         rb.angularVelocity = Vector3.zero;
         transform.position = initialPosition;
