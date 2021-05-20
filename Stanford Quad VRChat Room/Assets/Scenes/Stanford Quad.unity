@@ -58,7 +58,7 @@ LightmapSettings:
     serializedVersion: 10
     m_Resolution: 2
     m_BakeResolution: 10
-    m_AtlasSize: 512
+    m_AtlasSize: 2048
     m_AO: 1
     m_AOMaxDistance: 1
     m_CompAOExponent: 1
@@ -74,7 +74,7 @@ LightmapSettings:
     m_MixedBakeMode: 2
     m_BakeBackend: 1
     m_PVRSampling: 1
-    m_PVRDirectSampleCount: 32
+    m_PVRDirectSampleCount: 64
     m_PVRSampleCount: 256
     m_PVRBounces: 2
     m_PVRFilterTypeDirect: 0
@@ -2603,7 +2603,12 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 51b84e876a75da64d964f2204c3ae8ea, type: 2}
-    m_RemovedComponents: []
+    - target: {fileID: 10800000, guid: 563fd8272675074469437f7b724690a5, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 10800000, guid: 563fd8272675074469437f7b724690a5, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 563fd8272675074469437f7b724690a5, type: 3}
 --- !u!1 &1038091261 stripped
 GameObject:
@@ -4105,6 +4110,11 @@ PrefabInstance:
         type: 3}
       propertyPath: maximumAntialiasing
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5499662108231401120, guid: 70279d83763c0d745a4e513a75053671,
+        type: 3}
+      propertyPath: m_ReflectLayers.m_Bits
+      value: 289281
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70279d83763c0d745a4e513a75053671, type: 3}
