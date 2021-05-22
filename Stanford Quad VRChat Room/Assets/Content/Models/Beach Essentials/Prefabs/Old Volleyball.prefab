@@ -322,7 +322,7 @@ GameObject:
   - component: {fileID: 7591147143617874255}
   - component: {fileID: 7357715715977335346}
   - component: {fileID: 7012109392330018671}
-  m_Layer: 13
+  m_Layer: 0
   m_Name: Old Volleyball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -373,7 +373,7 @@ LODGroup:
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 23232496686841924}
-  - screenRelativeHeight: 0.01
+  - screenRelativeHeight: 0.00491716
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 23859903992725334}

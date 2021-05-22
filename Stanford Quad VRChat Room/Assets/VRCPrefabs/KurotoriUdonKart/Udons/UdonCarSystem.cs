@@ -311,8 +311,10 @@ public class UdonCarSystem : UdonSharpBehaviour
 
     public void RestTransformNetwork()
     {
-        Debug.Log("RestTransformNetwork");
-        SendCustomNetworkEvent(VRC.Udon.Common.Interfaces.NetworkEventTarget.Owner, "ResetTransform");
+        if (Networking.GetOwner(gameObject) != null)
+        {
+            SendCustomNetworkEvent(VRC.Udon.Common.Interfaces.NetworkEventTarget.Owner, "ResetTransform");
+        }
     }
 
     public void LeaveSeat()
