@@ -29,7 +29,22 @@ ModelImporter:
     4300004: Umbrella_LOD1
     4300006: Umbrella_LOD0
     20500000: //RootNode
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color
+    second: {fileID: 2100000, guid: e1b70b7003cf56148b489e3bc365b038, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: White
+    second: {fileID: 2100000, guid: 11124db94204278409402b1a5859c88d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood
+    second: {fileID: 2100000, guid: 5575251882e599c4aabb205396c2a645, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

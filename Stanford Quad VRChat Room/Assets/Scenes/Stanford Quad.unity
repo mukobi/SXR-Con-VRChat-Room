@@ -1211,7 +1211,7 @@ Light:
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 0.95
@@ -7928,7 +7928,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100068, guid: 563fd8272675074469437f7b724690a5, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400052, guid: 563fd8272675074469437f7b724690a5, type: 3}
       propertyPath: m_LocalPosition.y
@@ -10822,6 +10822,9 @@ GameObject:
   - component: {fileID: 1346937752}
   - component: {fileID: 1346937751}
   - component: {fileID: 1346937750}
+  - component: {fileID: 1346937757}
+  - component: {fileID: 1346937756}
+  - component: {fileID: 1346937755}
   m_Layer: 0
   m_Name: EQS_DATA
   m_TagString: EditorOnly
@@ -11091,8 +11094,17 @@ MonoBehaviour:
   - Target: {fileID: 2100000, guid: f321169931f40bd40b7f826396cf827c, type: 2}
     Type: {fileID: 1346937750}
     Foldout: 0
-  CachedBuildTarget: 19
-  NewBuildTarget: 19
+  - Target: {fileID: 2100000, guid: 9c996b05f516e2b4c98875b05ef01d51, type: 2}
+    Type: {fileID: 1346937757}
+    Foldout: 1
+  - Target: {fileID: 2100000, guid: 34880d8083c7d734da6c3407cc6adb3f, type: 2}
+    Type: {fileID: 1346937756}
+    Foldout: 1
+  - Target: {fileID: 2100000, guid: 8a0c2365ddf56a94691e7d315c75a792, type: 2}
+    Type: {fileID: 1346937755}
+    Foldout: 1
+  CachedBuildTarget: 13
+  NewBuildTarget: 13
 --- !u!4 &1346937712
 Transform:
   m_ObjectHideFlags: 1
@@ -11732,6 +11744,51 @@ MonoBehaviour:
     PC: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
     Quest: {fileID: 4800000, guid: 0b7113dea2069fc4e8943843eff19f70, type: 3}
 --- !u!114 &1346937754
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1346937704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd3386b3f1c214f4392a8072b69205e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Shader:
+    PC: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+    Quest: {fileID: 4800000, guid: 0b7113dea2069fc4e8943843eff19f70, type: 3}
+--- !u!114 &1346937755
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1346937704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd3386b3f1c214f4392a8072b69205e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Shader:
+    PC: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+    Quest: {fileID: 4800000, guid: 0b7113dea2069fc4e8943843eff19f70, type: 3}
+--- !u!114 &1346937756
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1346937704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd3386b3f1c214f4392a8072b69205e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Shader:
+    PC: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+    Quest: {fileID: 4800000, guid: 0b7113dea2069fc4e8943843eff19f70, type: 3}
+--- !u!114 &1346937757
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
