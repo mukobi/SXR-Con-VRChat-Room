@@ -10,7 +10,7 @@ BuildReport:
   m_Summary:
     buildStartTime:
       serializedVersion: 2
-      ticks: 637572703349245706
+      ticks: 637572728326816356
     buildGUID: 00000000000000000000000000000000
     platformName: Win64
     platformGroupName: Standalone
@@ -18,9 +18,9 @@ BuildReport:
     assetBundleOptions: 32
     outputPath: C:/Users/Gabe/AppData/Local/Temp/DefaultCompany/Stanford Quad VRChat
       Room/scene-standalonewindows64-stanford quad.vrcw
-    crc: 772807068
-    totalSize: 34420454
-    totalTimeTicks: 733957253
+    crc: 2624389532
+    totalSize: 34439275
+    totalTimeTicks: 1277373892
     totalErrors: 0
     totalWarnings: 0
     buildType: 1
@@ -30,12 +30,12 @@ BuildReport:
       Room/scene-standalonewindows64-stanford quad.vrcw/BuildPlayer-Stanford Quad
     role: Scene
     id: 0
-    totalSize: 3977904
+    totalSize: 4228464
   - path: C:/Users/Gabe/Documents/GitHub/Clubs/SXR-Con-VRChat-Room/Stanford Quad VRChat
       Room/scene-standalonewindows64-stanford quad.vrcw/BuildPlayer-Stanford Quad.sharedAssets
     role: SharedAssets
     id: 1
-    totalSize: 85994080
+    totalSize: 85992160
   - path: C:/Users/Gabe/Documents/GitHub/Clubs/SXR-Con-VRChat-Room/Stanford Quad VRChat
       Room/scene-standalonewindows64-stanford quad.vrcw/BuildPlayer-Stanford Quad.resource
     role: StreamingResourceFile
@@ -45,12 +45,12 @@ BuildReport:
       Room/scene-standalonewindows64-stanford quad.vrcw
     role: AssetBundle
     id: 3
-    totalSize: 34415365
+    totalSize: 34434185
   - path: C:/Users/Gabe/Documents/GitHub/Clubs/SXR-Con-VRChat-Room/Stanford Quad VRChat
       Room/scene-standalonewindows64-stanford quad.vrcw.manifest
     role: AssetBundleTextManifest
     id: 4
-    totalSize: 3881
+    totalSize: 3882
   - path: C:/Users/Gabe/Documents/GitHub/Clubs/SXR-Con-VRChat-Room/Stanford Quad VRChat
       Room/Stanford Quad VRChat Room/CAB-4e5e03382a04772bbbb9956d6af0ae0f
     role: ResourcesFile
@@ -68,23 +68,23 @@ BuildReport:
     totalSize: 172
   m_BuildSteps:
   - stepName: Build Asset Bundles
-    durationTicks: 733957253
+    durationTicks: 1277373892
     depth: 0
     messages: []
   - stepName: Calculate asset bundles to be built
-    durationTicks: 457242
+    durationTicks: 437361
     depth: 1
     messages: []
   - stepName: Compile scripts
-    durationTicks: 20245563
+    durationTicks: 26106548
     depth: 1
     messages: []
   - stepName: Build player
-    durationTicks: 617763934
+    durationTicks: 780418191
     depth: 1
     messages: []
   - stepName: Prepare assets for target platform
-    durationTicks: 251485
+    durationTicks: 225551
     depth: 2
     messages: []
   - stepName: Prepare splash screen
@@ -92,38 +92,79 @@ BuildReport:
     depth: 2
     messages: []
   - stepName: Building scenes
-    durationTicks: 439552580
+    durationTicks: 462617677
     depth: 2
     messages: []
   - stepName: Building scene Assets/Scenes/Stanford Quad.unity
-    durationTicks: 439552549
+    durationTicks: 462617653
     depth: 3
     messages: []
   - stepName: Writing asset files
-    durationTicks: 16878512
+    durationTicks: 18754819
     depth: 2
     messages: []
   - stepName: Packaging assets - archive:/BuildPlayer-Stanford Quad/BuildPlayer-Stanford
       Quad.sharedAssets
-    durationTicks: 16839212
+    durationTicks: 18718137
     depth: 3
     messages: []
   - stepName: Creating compressed player package
-    durationTicks: 148092553
+    durationTicks: 151688547
     depth: 2
     messages: []
   - stepName: Postprocess built player
-    durationTicks: 96468
+    durationTicks: 391438
     depth: 2
     messages: []
   m_Appendices:
-  - {fileID: 4282348398929799830}
-  - {fileID: 1126169706050136890}
-  - {fileID: 1126821019499568942}
-  - {fileID: 3324437307990284944}
-  - {fileID: 4190729890007014946}
-  - {fileID: 1126806276134547904}
---- !u!1126 &1126169706050136890
+  - {fileID: 4282348397953108102}
+  - {fileID: 1126381645612625402}
+  - {fileID: 1126186937760321472}
+  - {fileID: 3324437308731007072}
+  - {fileID: 4190729888765940296}
+  - {fileID: 1126542036573170480}
+--- !u!1126 &1126186937760321472
+PackedAssets:
+  m_File: 2
+  m_ShortPath: BuildPlayer-Stanford Quad.resource
+  m_Overhead: 0
+  m_Contents:
+  - fileID: 0
+    classID: 83
+    packedSize: 13792
+    sourceAssetGUID: 61c54ade70680c6439e2715c97407de9
+    buildTimeAssetPath: Assets/Content/Sounds/428156__higgs01__yay.wav
+  - fileID: 0
+    classID: 83
+    packedSize: 15744
+    sourceAssetGUID: 6af55caaa8567c340ad30cb6b2576e56
+    buildTimeAssetPath: Assets/Content/Sounds/Bird Up.ogg
+  - fileID: 0
+    classID: 83
+    packedSize: 41024
+    sourceAssetGUID: dba1110079cebc74db0d4b461791c1d0
+    buildTimeAssetPath: Assets/Content/Sounds/final-fantasy-v-music-victory-fanfare.mp3
+  - fileID: 0
+    classID: 83
+    packedSize: 272608
+    sourceAssetGUID: fa344bc7bf384ef4b89aa880c55b5af0
+    buildTimeAssetPath: Assets/Content/Sounds/536219__ambientsoundapp__bicycles-passing.wav
+  - fileID: 0
+    classID: 83
+    packedSize: 933632
+    sourceAssetGUID: 3ca27ad294812cc4fbaf68a9b401accb
+    buildTimeAssetPath: Assets/Content/Sounds/mixkit-calm-park-with-people-and-children-367.wav
+  - fileID: 0
+    classID: 83
+    packedSize: 1152160
+    sourceAssetGUID: dad42e6e31eb38642b5f321dbae9a346
+    buildTimeAssetPath: Assets/Content/Sounds/444904__mars-98__park-ambience.wav
+  - fileID: 0
+    classID: 83
+    packedSize: 1274848
+    sourceAssetGUID: b46fc8568c912464d95ec9226194742b
+    buildTimeAssetPath: Assets/Content/Sounds/328138__kasperaugusttopp__traffic-1-bikes-cars.wav
+--- !u!1126 &1126381645612625402
 PackedAssets:
   m_File: 1
   m_ShortPath: BuildPlayer-Stanford Quad.sharedAssets
@@ -1734,7 +1775,7 @@ PackedAssets:
     buildTimeAssetPath: Assets/Content/Models/SXR Logos/sxr logo square.fbx
   - fileID: 320
     classID: 43
-    packedSize: 7285340
+    packedSize: 7283612
     sourceAssetGUID: 563fd8272675074469437f7b724690a5
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbx
   - fileID: 321
@@ -1859,7 +1900,7 @@ PackedAssets:
     buildTimeAssetPath: Assets/VRCPrefabs/KurotoriUdonKart/Models/UdonKart.fbx
   - fileID: 345
     classID: 43
-    packedSize: 5068472
+    packedSize: 5068280
     sourceAssetGUID: 563fd8272675074469437f7b724690a5
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbx
   - fileID: 346
@@ -2334,7 +2375,7 @@ PackedAssets:
     packedSize: 30016
     sourceAssetGUID: 5e3910ef939917647b6c3317aa71e225
     buildTimeAssetPath: Assets/VRChat/SerializedUdonPrograms/f476772bf1db9c24a817ee4b2627c5d0.asset
---- !u!1126 &1126806276134547904
+--- !u!1126 &1126542036573170480
 PackedAssets:
   m_File: 5
   m_ShortPath: CAB-4e5e03382a04772bbbb9956d6af0ae0f
@@ -2350,48 +2391,7 @@ PackedAssets:
     packedSize: 112
     sourceAssetGUID: 00000000000000000000000000000000
     buildTimeAssetPath: 'Built-in AssetBundleManifest: AssetBundleManifest'
---- !u!1126 &1126821019499568942
-PackedAssets:
-  m_File: 2
-  m_ShortPath: BuildPlayer-Stanford Quad.resource
-  m_Overhead: 0
-  m_Contents:
-  - fileID: 0
-    classID: 83
-    packedSize: 13792
-    sourceAssetGUID: 61c54ade70680c6439e2715c97407de9
-    buildTimeAssetPath: Assets/Content/Sounds/428156__higgs01__yay.wav
-  - fileID: 0
-    classID: 83
-    packedSize: 15744
-    sourceAssetGUID: 6af55caaa8567c340ad30cb6b2576e56
-    buildTimeAssetPath: Assets/Content/Sounds/Bird Up.ogg
-  - fileID: 0
-    classID: 83
-    packedSize: 41024
-    sourceAssetGUID: dba1110079cebc74db0d4b461791c1d0
-    buildTimeAssetPath: Assets/Content/Sounds/final-fantasy-v-music-victory-fanfare.mp3
-  - fileID: 0
-    classID: 83
-    packedSize: 272608
-    sourceAssetGUID: fa344bc7bf384ef4b89aa880c55b5af0
-    buildTimeAssetPath: Assets/Content/Sounds/536219__ambientsoundapp__bicycles-passing.wav
-  - fileID: 0
-    classID: 83
-    packedSize: 933632
-    sourceAssetGUID: 3ca27ad294812cc4fbaf68a9b401accb
-    buildTimeAssetPath: Assets/Content/Sounds/mixkit-calm-park-with-people-and-children-367.wav
-  - fileID: 0
-    classID: 83
-    packedSize: 1152160
-    sourceAssetGUID: dad42e6e31eb38642b5f321dbae9a346
-    buildTimeAssetPath: Assets/Content/Sounds/444904__mars-98__park-ambience.wav
-  - fileID: 0
-    classID: 83
-    packedSize: 1274848
-    sourceAssetGUID: b46fc8568c912464d95ec9226194742b
-    buildTimeAssetPath: Assets/Content/Sounds/328138__kasperaugusttopp__traffic-1-bikes-cars.wav
---- !u!382020655 &3324437307990284944
+--- !u!382020655 &3324437308731007072
 PluginBuildInfo:
   m_RuntimePlugins:
   - OVRPlugin
@@ -2459,12 +2459,12 @@ PluginBuildInfo:
   - UnityEditor.TestRunner
   - VRC.Udon.EditorBindings
   - UnityEditor.Timeline
---- !u!641289076 &4190729890007014946
+--- !u!641289076 &4190729888765940296
 AudioBuildInfo:
   m_IsAudioDisabled: 0
   m_AudioClipCount: 7
   m_AudioMixerCount: 0
---- !u!668709126 &4282348398929799830
+--- !u!668709126 &4282348397953108102
 BuiltAssetBundleInfoSet:
   bundleInfos:
   - bundleName: scene-standalonewindows64-stanford quad.vrcw
