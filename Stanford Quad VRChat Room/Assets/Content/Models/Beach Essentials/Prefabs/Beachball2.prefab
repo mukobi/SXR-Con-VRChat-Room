@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4279577095720936}
   - component: {fileID: 33724010108929776}
   - component: {fileID: 23952042032458680}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: ball_LOD3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -88,7 +88,7 @@ GameObject:
   - component: {fileID: 4150383455717462}
   - component: {fileID: 33636439750722890}
   - component: {fileID: 23639055177277048}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: ball_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -165,7 +165,7 @@ GameObject:
   - component: {fileID: 4756470880542260}
   - component: {fileID: 33423988121409690}
   - component: {fileID: 23360337778168104}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: ball_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -245,7 +245,7 @@ GameObject:
   - component: {fileID: 3887316017232066931}
   - component: {fileID: 6879340327866812569}
   - component: {fileID: 6387882317414172707}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Beachball2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -358,7 +358,7 @@ MonoBehaviour:
   PickupEventName: 
   DropEventName: 
   ThrowVelocityBoostMinSpeed: 1
-  ThrowVelocityBoostScale: 1
+  ThrowVelocityBoostScale: 1.25
   currentlyHeldBy: {fileID: 0}
   pickupable: 1
   proximity: 2
@@ -398,7 +398,7 @@ GameObject:
   - component: {fileID: 4856493479811844}
   - component: {fileID: 33078779891611622}
   - component: {fileID: 23338809760389084}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: ball_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}

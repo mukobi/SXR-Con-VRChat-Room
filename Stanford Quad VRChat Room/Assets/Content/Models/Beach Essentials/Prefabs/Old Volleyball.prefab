@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4370479232329552}
   - component: {fileID: 33458739912432358}
   - component: {fileID: 23859903992725334}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Volleyball_LOD3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -88,7 +88,7 @@ GameObject:
   - component: {fileID: 4697115402512880}
   - component: {fileID: 33345467479467906}
   - component: {fileID: 23773724923466302}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Volleyball_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -165,7 +165,7 @@ GameObject:
   - component: {fileID: 4533512060787054}
   - component: {fileID: 33781521781688912}
   - component: {fileID: 23232496686841924}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Volleyball_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -242,7 +242,7 @@ GameObject:
   - component: {fileID: 4977134114513820}
   - component: {fileID: 33411599340013896}
   - component: {fileID: 23321579276926554}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Volleyball_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -322,7 +322,7 @@ GameObject:
   - component: {fileID: 7591147143617874255}
   - component: {fileID: 7357715715977335346}
   - component: {fileID: 7012109392330018671}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Old Volleyball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -435,7 +435,7 @@ MonoBehaviour:
   PickupEventName: 
   DropEventName: 
   ThrowVelocityBoostMinSpeed: 1
-  ThrowVelocityBoostScale: 1
+  ThrowVelocityBoostScale: 1.25
   currentlyHeldBy: {fileID: 0}
   pickupable: 1
   proximity: 2
