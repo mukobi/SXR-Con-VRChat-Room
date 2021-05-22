@@ -10,7 +10,7 @@ BuildReport:
   m_Summary:
     buildStartTime:
       serializedVersion: 2
-      ticks: 637572569100506193
+      ticks: 637572703349245706
     buildGUID: 00000000000000000000000000000000
     platformName: Win64
     platformGroupName: Standalone
@@ -18,9 +18,9 @@ BuildReport:
     assetBundleOptions: 32
     outputPath: C:/Users/Gabe/AppData/Local/Temp/DefaultCompany/Stanford Quad VRChat
       Room/scene-standalonewindows64-stanford quad.vrcw
-    crc: 1448548154
-    totalSize: 35122712
-    totalTimeTicks: 826396414
+    crc: 772807068
+    totalSize: 34420454
+    totalTimeTicks: 733957253
     totalErrors: 0
     totalWarnings: 0
     buildType: 1
@@ -30,27 +30,27 @@ BuildReport:
       Room/scene-standalonewindows64-stanford quad.vrcw/BuildPlayer-Stanford Quad
     role: Scene
     id: 0
-    totalSize: 5393280
+    totalSize: 3977904
   - path: C:/Users/Gabe/Documents/GitHub/Clubs/SXR-Con-VRChat-Room/Stanford Quad VRChat
       Room/scene-standalonewindows64-stanford quad.vrcw/BuildPlayer-Stanford Quad.sharedAssets
     role: SharedAssets
     id: 1
-    totalSize: 87105440
+    totalSize: 85994080
   - path: C:/Users/Gabe/Documents/GitHub/Clubs/SXR-Con-VRChat-Room/Stanford Quad VRChat
       Room/scene-standalonewindows64-stanford quad.vrcw/BuildPlayer-Stanford Quad.resource
     role: StreamingResourceFile
     id: 2
-    totalSize: 3633248
+    totalSize: 3703808
   - path: C:/Users/Gabe/Documents/GitHub/Clubs/SXR-Con-VRChat-Room/Stanford Quad VRChat
       Room/scene-standalonewindows64-stanford quad.vrcw
     role: AssetBundle
     id: 3
-    totalSize: 35117699
+    totalSize: 34415365
   - path: C:/Users/Gabe/Documents/GitHub/Clubs/SXR-Con-VRChat-Room/Stanford Quad VRChat
       Room/scene-standalonewindows64-stanford quad.vrcw.manifest
     role: AssetBundleTextManifest
     id: 4
-    totalSize: 3804
+    totalSize: 3881
   - path: C:/Users/Gabe/Documents/GitHub/Clubs/SXR-Con-VRChat-Room/Stanford Quad VRChat
       Room/Stanford Quad VRChat Room/CAB-4e5e03382a04772bbbb9956d6af0ae0f
     role: ResourcesFile
@@ -60,7 +60,7 @@ BuildReport:
       Room/Stanford Quad VRChat Room
     role: ManifestAssetBundle
     id: 6
-    totalSize: 1037
+    totalSize: 1036
   - path: C:/Users/Gabe/Documents/GitHub/Clubs/SXR-Con-VRChat-Room/Stanford Quad VRChat
       Room/Stanford Quad VRChat Room.manifest
     role: AssetBundleTextManifest
@@ -68,66 +68,66 @@ BuildReport:
     totalSize: 172
   m_BuildSteps:
   - stepName: Build Asset Bundles
-    durationTicks: 826396414
+    durationTicks: 733957253
     depth: 0
     messages: []
   - stepName: Calculate asset bundles to be built
-    durationTicks: 1393138
+    durationTicks: 457242
     depth: 1
     messages: []
   - stepName: Compile scripts
-    durationTicks: 25140775
+    durationTicks: 20245563
     depth: 1
     messages: []
   - stepName: Build player
-    durationTicks: 663361781
+    durationTicks: 617763934
     depth: 1
     messages: []
   - stepName: Prepare assets for target platform
-    durationTicks: 208022
+    durationTicks: 251485
     depth: 2
     messages: []
   - stepName: Prepare splash screen
-    durationTicks: 9
+    durationTicks: 7
     depth: 2
     messages: []
   - stepName: Building scenes
-    durationTicks: 457042061
+    durationTicks: 439552580
     depth: 2
     messages: []
   - stepName: Building scene Assets/Scenes/Stanford Quad.unity
-    durationTicks: 457042019
+    durationTicks: 439552549
     depth: 3
     messages: []
   - stepName: Writing asset files
-    durationTicks: 18378076
+    durationTicks: 16878512
     depth: 2
     messages: []
   - stepName: Packaging assets - archive:/BuildPlayer-Stanford Quad/BuildPlayer-Stanford
       Quad.sharedAssets
-    durationTicks: 18340981
+    durationTicks: 16839212
     depth: 3
     messages: []
   - stepName: Creating compressed player package
-    durationTicks: 152772179
+    durationTicks: 148092553
     depth: 2
     messages: []
   - stepName: Postprocess built player
-    durationTicks: 217940
+    durationTicks: 96468
     depth: 2
     messages: []
   m_Appendices:
-  - {fileID: 4282348398056392912}
-  - {fileID: 1126389371887059494}
-  - {fileID: 1126927496250130970}
-  - {fileID: 3324437308886922684}
-  - {fileID: 4190729888905268394}
-  - {fileID: 1126425535958270096}
---- !u!1126 &1126389371887059494
+  - {fileID: 4282348398929799830}
+  - {fileID: 1126169706050136890}
+  - {fileID: 1126821019499568942}
+  - {fileID: 3324437307990284944}
+  - {fileID: 4190729890007014946}
+  - {fileID: 1126806276134547904}
+--- !u!1126 &1126169706050136890
 PackedAssets:
   m_File: 1
   m_ShortPath: BuildPlayer-Stanford Quad.sharedAssets
-  m_Overhead: 79605
+  m_Overhead: 79733
   m_Contents:
   - fileID: 1
     classID: 150
@@ -151,79 +151,79 @@ PackedAssets:
     buildTimeAssetPath: Assets/Content/Materials/m_Bronze.mat
   - fileID: 5
     classID: 21
+    packedSize: 1116
+    sourceAssetGUID: 0046a47e492adab44bfe7454bd1acdf0
+    buildTimeAssetPath: Assets/Content/Materials/m_Confetti.mat
+  - fileID: 6
+    classID: 21
     packedSize: 920
     sourceAssetGUID: 9c996b05f516e2b4c98875b05ef01d51
     buildTimeAssetPath: Assets/Content/Materials/m_DarkPurple.mat
-  - fileID: 6
+  - fileID: 7
     classID: 21
     packedSize: 920
     sourceAssetGUID: 34880d8083c7d734da6c3407cc6adb3f
     buildTimeAssetPath: Assets/Content/Materials/m_Eggshell.mat
-  - fileID: 7
+  - fileID: 8
     classID: 21
     packedSize: 916
     sourceAssetGUID: f0a6e530978419f46b65507d35a6622a
     buildTimeAssetPath: Assets/Content/Materials/m_Gold.mat
-  - fileID: 8
+  - fileID: 9
     classID: 21
     packedSize: 916
     sourceAssetGUID: f841cc0badeda054cbf95bb8d2870c40
     buildTimeAssetPath: Assets/Content/Materials/m_Green.mat
-  - fileID: 9
+  - fileID: 10
     classID: 21
     packedSize: 924
     sourceAssetGUID: 8a0c2365ddf56a94691e7d315c75a792
     buildTimeAssetPath: Assets/Content/Materials/m_LightPurple.mat
-  - fileID: 10
+  - fileID: 11
     classID: 21
     packedSize: 920
     sourceAssetGUID: 3b1dd4d4235e92449943339315dbbd11
     buildTimeAssetPath: Assets/Content/Materials/m_MetalBunny.mat
-  - fileID: 11
+  - fileID: 12
     classID: 21
     packedSize: 936
     sourceAssetGUID: 51b84e876a75da64d964f2204c3ae8ea
     buildTimeAssetPath: Assets/Content/Materials/m_Mirror.mat
-  - fileID: 12
+  - fileID: 13
     classID: 21
     packedSize: 916
     sourceAssetGUID: 87caefe086965ce49bbd506261d73c88
     buildTimeAssetPath: Assets/Content/Materials/m_Red.mat
-  - fileID: 13
+  - fileID: 14
     classID: 21
     packedSize: 916
     sourceAssetGUID: b098e8facac1f7142bcfc146ee55b354
     buildTimeAssetPath: Assets/Content/Materials/m_Silver.mat
-  - fileID: 14
+  - fileID: 15
     classID: 21
     packedSize: 696
     sourceAssetGUID: 7b06a50fd1d008a4bbc8bf89f088929e
     buildTimeAssetPath: Assets/Content/Materials/m_StandardLiteWhite.mat
-  - fileID: 15
+  - fileID: 16
     classID: 21
     packedSize: 732
     sourceAssetGUID: 395aff3231fc0ac47bd8c0d885eef5fe
     buildTimeAssetPath: Assets/Content/Materials/m_Stanford HDRI.mat
-  - fileID: 16
+  - fileID: 17
     classID: 21
     packedSize: 916
     sourceAssetGUID: b91ac40ea5b208d4abd93279975d2c4a
     buildTimeAssetPath: Assets/Content/Materials/m_Yellow.mat
-  - fileID: 17
+  - fileID: 18
     classID: 21
     packedSize: 896
     sourceAssetGUID: 75d4a74b69bb54a4cb36b3d1754fb6f1
     buildTimeAssetPath: Assets/Content/Models/Beach Essentials/Materials/BeachBall1.mat
-  - fileID: 18
+  - fileID: 19
     classID: 21
     packedSize: 896
     sourceAssetGUID: a600b4815c5bb415685973f956343f12
     buildTimeAssetPath: Assets/Content/Models/Beach Essentials/Materials/BeachBall2.mat
-  - fileID: 19
-    classID: 21
-    packedSize: 904
-    sourceAssetGUID: 41072158194174af7ae91b0a3e174ad1
-    buildTimeAssetPath: Assets/Content/Models/Beach Essentials/Materials/Chrome.mat
   - fileID: 20
     classID: 21
     packedSize: 916
@@ -236,19 +236,19 @@ PackedAssets:
     buildTimeAssetPath: Assets/Content/Models/Beach Essentials/Materials/Fabric6.mat
   - fileID: 22
     classID: 21
-    packedSize: 916
-    sourceAssetGUID: 9c3f373e8bdbb4b308dc4785f9fd3cf3
-    buildTimeAssetPath: Assets/Content/Models/Beach Essentials/Materials/Fabric8.mat
-  - fileID: 23
-    classID: 21
     packedSize: 912
     sourceAssetGUID: d966003f22d68474395c27e53d4d590f
     buildTimeAssetPath: Assets/Content/Models/Beach Essentials/Materials/Net.mat
-  - fileID: 24
+  - fileID: 23
     classID: 21
     packedSize: 916
     sourceAssetGUID: 3985ea8d37a144d8ea14e1b990323cb4
     buildTimeAssetPath: Assets/Content/Models/Beach Essentials/Materials/Posts.mat
+  - fileID: 24
+    classID: 21
+    packedSize: 908
+    sourceAssetGUID: 0b9b5e31bf5fd47ae8ad9c8ea777fd0c
+    buildTimeAssetPath: Assets/Content/Models/Beach Essentials/Materials/RedPlastic.mat
   - fileID: 25
     classID: 21
     packedSize: 908
@@ -261,19 +261,19 @@ PackedAssets:
     buildTimeAssetPath: Assets/Content/Models/Beach Essentials/Materials/WhiteFaric.mat
   - fileID: 27
     classID: 21
-    packedSize: 908
-    sourceAssetGUID: 884a832ee5d774caf9f79c343345c662
-    buildTimeAssetPath: Assets/Content/Models/Beach Essentials/Materials/WhiteMetal.mat
-  - fileID: 28
-    classID: 21
     packedSize: 904
     sourceAssetGUID: e64535f49e86c4cd69e61347d9f26b07
     buildTimeAssetPath: Assets/Content/Models/Beach Essentials/Materials/Wood1.mat
-  - fileID: 29
+  - fileID: 28
     classID: 21
     packedSize: 940
     sourceAssetGUID: e3872ae9fef8e4ea4bdcb6408678f5d6
     buildTimeAssetPath: Assets/Content/Models/Beach Essentials/Materials/Wood2.mat
+  - fileID: 29
+    classID: 21
+    packedSize: 904
+    sourceAssetGUID: ee61f71bb34b34aff8862766ec19f24b
+    buildTimeAssetPath: Assets/Content/Models/Beach Essentials/Materials/Wood3.mat
   - fileID: 30
     classID: 21
     packedSize: 928
@@ -981,822 +981,822 @@ PackedAssets:
     buildTimeAssetPath: Assets/VRCPrefabs/_Childofthebeast/Games/BeerPong/Meshes/BeepPong/FrontColor.mat
   - fileID: 171
     classID: 21
-    packedSize: 692
-    sourceAssetGUID: bd0f20c75ea9a414d91a457c183b6f5c
-    buildTimeAssetPath: Assets/VRCPrefabs/_Childofthebeast/Games/BeerPong/Meshes/BeepPong/M_0134_DimGray.mat
-  - fileID: 172
-    classID: 21
     packedSize: 976
     sourceAssetGUID: ed4e9b8c5e47b4a4c88e09c02074ca93
     buildTimeAssetPath: Assets/VRCPrefabs/_Childofthebeast/Games/BeerPong/Textures/BeerPong_Table_Top.mat
-  - fileID: 173
+  - fileID: 172
     classID: 21
     packedSize: 920
     sourceAssetGUID: ffab65d627c3b3d41803c62911feba54
     buildTimeAssetPath: Assets/VRCPrefabs/_Childofthebeast/Games/BeerPong/Textures/New
       Material.mat
-  - fileID: 174
-    classID: 21
-    packedSize: 1292
-    sourceAssetGUID: 00d89351f4765864aac93d19b38b892b
-    buildTimeAssetPath: Assets/VRCPrefabs/_Childofthebeast/Games/BeerPong/Textures/Translucent_Glass_Blue.mat
-  - fileID: 175
+  - fileID: 173
     classID: 21
     packedSize: 1140
     sourceAssetGUID: c815f7613a04b724089c206857e57c6a
     buildTimeAssetPath: Assets/VRChat/VRCSDK/Sample Assets/Materials/MirrorReflection.mat
-  - fileID: 176
+  - fileID: 174
+    classID: 21
+    packedSize: 892
+    sourceAssetGUID: 749893d2eefe544fa9e84282bae1e34c
+    buildTimeAssetPath: Assets/Content/Models/Beach Essentials/Meshes/Umbrella.fbx
+  - fileID: 175
     classID: 21
     packedSize: 136
     sourceAssetGUID: 98baae691215eb546a697ff7d942a5bb
     buildTimeAssetPath: Assets/VRChat/Udon/ReferenceDocs/_static/fonts/Lato-Regular.ttf
-  - fileID: 177
+  - fileID: 176
     classID: 21
     packedSize: 136
     sourceAssetGUID: d8a7948bc83b01f45ab5078c10dd8e04
     buildTimeAssetPath: Assets/VRChat/Udon/ReferenceDocs/_static/fonts/Lato-Bold.ttf
-  - fileID: 178
+  - fileID: 177
     classID: 21
     packedSize: 136
     sourceAssetGUID: e3265ab4bf004d28a9537516768c1c75
     buildTimeAssetPath: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
-  - fileID: 179
+  - fileID: 178
     classID: 21
     packedSize: 888
     sourceAssetGUID: e7ca39643562c43ed8c0bd6af4dc4645
     buildTimeAssetPath: Assets/Content/Models/Beach Essentials/Meshes/VolleyballNet.fbx
-  - fileID: 180
+  - fileID: 179
     classID: 21
     packedSize: 2004
     sourceAssetGUID: 2e498d1c8094910479dc3e1b768306a4
     buildTimeAssetPath: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans
       SDF - Fallback.asset
-  - fileID: 181
+  - fileID: 180
     classID: 21
     packedSize: 956
     sourceAssetGUID: 8f586378b4e144a9851e7b34d9b748ee
     buildTimeAssetPath: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans
       SDF.asset
-  - fileID: 182
+  - fileID: 181
     classID: 28
     packedSize: 5564
     sourceAssetGUID: 0000000000000000f000000000000000
     buildTimeAssetPath: Resources/unity_builtin_extra
-  - fileID: 183
+  - fileID: 182
     classID: 28
     packedSize: 5568
     sourceAssetGUID: 0000000000000000f000000000000000
     buildTimeAssetPath: Resources/unity_builtin_extra
-  - fileID: 184
+  - fileID: 183
     classID: 28
     packedSize: 21944
     sourceAssetGUID: 0000000000000000f000000000000000
     buildTimeAssetPath: Resources/unity_builtin_extra
-  - fileID: 185
+  - fileID: 184
     classID: 28
     packedSize: 174912
     sourceAssetGUID: 045a01e7790ac1d449ba01155b4717b4
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00213-texture.png
-  - fileID: 186
+  - fileID: 185
     classID: 28
     packedSize: 43804
     sourceAssetGUID: 06b1e1cbe1b16e64b95cb0b3e4575ed8
     buildTimeAssetPath: Assets/VRCPrefabs/KurotoriUdonKart/Models/Textures/Exit.png
-  - fileID: 187
+  - fileID: 186
     classID: 28
     packedSize: 174896
     sourceAssetGUID: 0d771da442ab1974c9c3601fc2e3b431
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00047-texture.png
-  - fileID: 188
+  - fileID: 187
     classID: 28
     packedSize: 174912
     sourceAssetGUID: 0e7b0441fc6dfc147a38e544d3e811df
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00075-texture.png
-  - fileID: 189
+  - fileID: 188
     classID: 28
     packedSize: 174912
     sourceAssetGUID: 13c2757ba23f8fe4d8e65302abc3cd56
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00111-texture.png
-  - fileID: 190
+  - fileID: 189
     classID: 28
     packedSize: 174912
     sourceAssetGUID: 140df42442aea184f9bf76a243a4e266
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00023-texture.png
-  - fileID: 191
+  - fileID: 190
     classID: 28
     packedSize: 87520
     sourceAssetGUID: 14a8b6219877288498a7bd055bc0ad89
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00155-texture.png
-  - fileID: 192
+  - fileID: 191
     classID: 28
     packedSize: 87520
     sourceAssetGUID: 14c8d12d51de49a43a5ba6c7ecb6567c
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00033-texture.png
-  - fileID: 193
+  - fileID: 192
     classID: 28
     packedSize: 174896
     sourceAssetGUID: 16bdfe98732b9c749b9fe98f5a667e40
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00071-texture.png
-  - fileID: 194
+  - fileID: 193
     classID: 28
     packedSize: 174896
     sourceAssetGUID: 1a150d6f90314cd46a80a77d0c146f33
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00073-texture.png
-  - fileID: 195
+  - fileID: 194
     classID: 28
     packedSize: 174912
     sourceAssetGUID: 1bfd2859f00dfe64f9a007cd5d9b20b5
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00022-texture.png
-  - fileID: 196
+  - fileID: 195
     classID: 28
     packedSize: 87520
     sourceAssetGUID: 1e970cd11002b9f40af47d85152e19dc
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00031-texture.png
-  - fileID: 197
+  - fileID: 196
     classID: 28
     packedSize: 174912
     sourceAssetGUID: 219ac6feb562da7438ecef87461d407b
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00115-texture.png
-  - fileID: 198
+  - fileID: 197
     classID: 28
     packedSize: 174912
     sourceAssetGUID: 2d1062dd8917e034bad69926a703ff8e
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00041-texture.png
-  - fileID: 199
+  - fileID: 198
     classID: 28
     packedSize: 87520
     sourceAssetGUID: 2dd9f1978617bcb4c8d558f3cefa6ac5
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00196-texture.png
-  - fileID: 200
+  - fileID: 199
     classID: 28
     packedSize: 174896
     sourceAssetGUID: 2e54a791bcc56094885edd91ec0ce960
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00028-texture.png
-  - fileID: 201
+  - fileID: 200
     classID: 28
     packedSize: 174912
     sourceAssetGUID: 2f63feb248a84bf4baae4daf41bd423a
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00159-texture.png
-  - fileID: 202
+  - fileID: 201
     classID: 28
     packedSize: 174912
     sourceAssetGUID: 34269039a4be177438522995455baab0
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00149-texture.png
-  - fileID: 203
+  - fileID: 202
     classID: 28
     packedSize: 699208
     sourceAssetGUID: 36467ac77b1ca4249a8af743cdb69a1b
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00097-texture.png
-  - fileID: 204
+  - fileID: 203
     classID: 28
     packedSize: 174912
     sourceAssetGUID: 376af3086c6b9de47a7520c4ecc0d3c3
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00029-texture.png
-  - fileID: 205
+  - fileID: 204
     classID: 28
     packedSize: 1398264
     sourceAssetGUID: 3a55a996f243144bab619e346fb9fa33
     buildTimeAssetPath: Assets/Content/Models/Beach Essentials/Textures/TexturesCom_WoodFine0059_11_seamless_S.png
-  - fileID: 206
+  - fileID: 205
     classID: 28
     packedSize: 174912
     sourceAssetGUID: 3d5e47395c2823c489e619c72b93b923
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00039-texture.png
-  - fileID: 207
+  - fileID: 206
     classID: 28
     packedSize: 349660
     sourceAssetGUID: 3df0217526d9e458dadb2953e79c9923
     buildTimeAssetPath: Assets/Content/Models/Beach Essentials/Textures/VertStripes.png
-  - fileID: 208
+  - fileID: 207
     classID: 28
     packedSize: 84572
     sourceAssetGUID: 3e91886c8593e8b4eadcddcdd7e88623
     buildTimeAssetPath: Assets/VRCPrefabs/KurotoriUdonKart/Models/Textures/UdonKart_col.png
-  - fileID: 209
+  - fileID: 208
     classID: 28
     packedSize: 174912
     sourceAssetGUID: 3eb0fb0394b777b48834e487d740e110
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00147-texture.png
-  - fileID: 210
+  - fileID: 209
     classID: 28
     packedSize: 87520
     sourceAssetGUID: 4072d924690574846ab1f304d46a56fe
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00224-texture.png
-  - fileID: 211
+  - fileID: 210
     classID: 28
     packedSize: 174912
     sourceAssetGUID: 40a28c76322cdd14a9cd3d24b9437cfc
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00045-texture.png
-  - fileID: 212
+  - fileID: 211
     classID: 28
     packedSize: 174912
     sourceAssetGUID: 4188b9d23b20ee143a05a715eb21706b
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00189-texture.png
-  - fileID: 213
+  - fileID: 212
     classID: 28
     packedSize: 174912
     sourceAssetGUID: 45a800f3e26e4284d99917a4ed0ae7a8
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00107-texture.png
-  - fileID: 214
+  - fileID: 213
     classID: 28
     packedSize: 174912
     sourceAssetGUID: 481a70f08cf22b94ab1fae4404108352
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00057-texture.png
-  - fileID: 215
+  - fileID: 214
     classID: 28
     packedSize: 87520
     sourceAssetGUID: 488915ea0a541a842ab7816f59ae78c0
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00007-texture.png
-  - fileID: 216
+  - fileID: 215
     classID: 28
     packedSize: 87520
     sourceAssetGUID: 4c2cfe3c155917d4ea3101f8c5ad1f4f
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00225-texture.png
-  - fileID: 217
+  - fileID: 216
     classID: 28
     packedSize: 174912
     sourceAssetGUID: 5049909b03d5f1341b5d147203313db7
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00101-texture.png
-  - fileID: 218
+  - fileID: 217
     classID: 28
     packedSize: 174912
     sourceAssetGUID: 505bc7eafe64fd443a14e96b3f288637
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00187-texture.png
-  - fileID: 219
+  - fileID: 218
     classID: 28
     packedSize: 87520
     sourceAssetGUID: 5540beb235b069a4c8d09f45bc8493a0
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00139-texture.png
-  - fileID: 220
+  - fileID: 219
     classID: 28
     packedSize: 174912
     sourceAssetGUID: 5989ff69a33fa4f4b979416f60a961eb
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00061-texture.png
-  - fileID: 221
+  - fileID: 220
     classID: 28
     packedSize: 349664
     sourceAssetGUID: 5c97fed4f6d494cef8d9236d17937a7c
     buildTimeAssetPath: Assets/Content/Models/Beach Essentials/Textures/BWVertStripes.png
-  - fileID: 222
+  - fileID: 221
     classID: 28
     packedSize: 87520
     sourceAssetGUID: 5fe59abb8f40be849b3d98887dc9d700
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00163-texture.png
-  - fileID: 223
+  - fileID: 222
     classID: 28
     packedSize: 174896
     sourceAssetGUID: 617ae236140b1364aabf993afd86ea26
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00093-texture.png
-  - fileID: 224
+  - fileID: 223
     classID: 28
     packedSize: 174912
     sourceAssetGUID: 6575d216f48aedb4292a77b80b4e5c8a
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00043-texture.png
-  - fileID: 225
+  - fileID: 224
     classID: 28
     packedSize: 1398236
     sourceAssetGUID: 69598127800a140cd83617b2beb78ad3
     buildTimeAssetPath: Assets/Content/Models/Beach Essentials/Textures/whitewood
       1.png
-  - fileID: 226
+  - fileID: 225
     classID: 28
     packedSize: 174912
     sourceAssetGUID: 6be80fd5012ba5a44bccb7e6615d055e
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00063-texture.png
-  - fileID: 227
+  - fileID: 226
     classID: 28
     packedSize: 11040
     sourceAssetGUID: 6f83de0656dded943a5f7f3b396fbb8c
     buildTimeAssetPath: Assets/VRCPrefabs/QvPen/Texture/rainbow.png
-  - fileID: 228
+  - fileID: 227
     classID: 28
     packedSize: 174912
     sourceAssetGUID: 7050537af33516348b19a29b1c1e3947
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00153-texture.png
-  - fileID: 229
+  - fileID: 228
     classID: 28
     packedSize: 174896
     sourceAssetGUID: 70aa98174eee5104fae2a18c58132d53
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00013-texture.png
-  - fileID: 230
+  - fileID: 229
     classID: 28
     packedSize: 43824
     sourceAssetGUID: 7165111a963804d49a67b7011f657d3e
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00089-texture.png
-  - fileID: 231
+  - fileID: 230
     classID: 28
     packedSize: 87520
     sourceAssetGUID: 7286cde017444ca46ab74610d03dd4da
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00202-texture.png
-  - fileID: 232
+  - fileID: 231
     classID: 28
     packedSize: 174912
     sourceAssetGUID: 72d08bf94ed67dd4f8518fdcefec3a1d
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00055-texture.png
-  - fileID: 233
+  - fileID: 232
     classID: 28
     packedSize: 174912
     sourceAssetGUID: 74e3366a3d22af54392e2cd2895c64ca
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00037-texture.png
-  - fileID: 234
+  - fileID: 233
     classID: 28
     packedSize: 43824
     sourceAssetGUID: 76173795def2dc04b9dd0736257d85d5
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00172-texture.png
-  - fileID: 235
+  - fileID: 234
     classID: 28
     packedSize: 174912
     sourceAssetGUID: 7803ea866f6450341899618143c4f3db
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00131-texture.png
-  - fileID: 236
+  - fileID: 235
     classID: 28
     packedSize: 87520
     sourceAssetGUID: 78b19b5d2fe719b468a1bdde20eab9d7
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00036-texture.png
-  - fileID: 237
+  - fileID: 236
     classID: 28
     packedSize: 43824
     sourceAssetGUID: 7929b28401b03ea4b8bfe807b0a818a3
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00171-texture.png
-  - fileID: 238
+  - fileID: 237
     classID: 28
     packedSize: 174912
     sourceAssetGUID: 7a25352c2df86b44e91ad421587e0e38
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00143-texture.png
-  - fileID: 239
+  - fileID: 238
     classID: 28
     packedSize: 1398264
     sourceAssetGUID: 7a8cb4fdcb5db427193e7eb5d61ae54c
     buildTimeAssetPath: Assets/Content/Models/Beach Essentials/Textures/TexturesCom_WoodFine0059_11_seamless_S
       1.png
-  - fileID: 240
+  - fileID: 239
     classID: 28
     packedSize: 349692
     sourceAssetGUID: 7be49c2df59dd4cd3a1e562a7c4a3ab6
     buildTimeAssetPath: Assets/Content/Models/Beach Essentials/Textures/Volleyball.png
-  - fileID: 241
+  - fileID: 240
     classID: 28
     packedSize: 87520
     sourceAssetGUID: 7eb948a1f6f9c884cae32205c586444c
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00105-texture.png
-  - fileID: 242
+  - fileID: 241
     classID: 28
     packedSize: 1398236
     sourceAssetGUID: 7f98de9377d88466a992d9bfb2b4aac1
     buildTimeAssetPath: Assets/Content/Models/Beach Essentials/Textures/Beachball1.png
-  - fileID: 243
+  - fileID: 242
     classID: 28
     packedSize: 174912
     sourceAssetGUID: 80ee78b02202d0a458eeb848eb384503
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00145-texture.png
-  - fileID: 244
+  - fileID: 243
     classID: 28
     packedSize: 87520
     sourceAssetGUID: 82fd2debc90880846898225b62a047b4
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00053-texture.png
-  - fileID: 245
+  - fileID: 244
     classID: 28
     packedSize: 43824
     sourceAssetGUID: 83c1b647b91ee694daaffba21b68ae66
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00081-texture.png
-  - fileID: 246
+  - fileID: 245
     classID: 28
     packedSize: 174912
     sourceAssetGUID: 853a9a79d061c6e4bb73a92f08e0e32c
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00059-texture.png
-  - fileID: 247
+  - fileID: 246
     classID: 28
     packedSize: 87520
     sourceAssetGUID: 85a71a01139f12643a03dea44aea779e
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00183-texture.png
-  - fileID: 248
+  - fileID: 247
     classID: 28
     packedSize: 2796372
     sourceAssetGUID: 878630c42d4b6944aa688c307b5b5bf8
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford_campus_2020_smaller_red-roofs_AlbedoTransparency.png
-  - fileID: 249
+  - fileID: 248
     classID: 28
     packedSize: 174912
     sourceAssetGUID: 88c1bf3262a30ee4e915e0ef8c320dd5
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00127-texture.png
-  - fileID: 250
+  - fileID: 249
     classID: 28
     packedSize: 174912
     sourceAssetGUID: 8ad776a4252eaec43a23cc592bf1d71d
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00103-texture.png
-  - fileID: 251
+  - fileID: 250
     classID: 28
     packedSize: 174896
     sourceAssetGUID: 8b245615e6de9f04a8437c752ca98915
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00077-texture.png
-  - fileID: 252
+  - fileID: 251
     classID: 28
     packedSize: 1398232
     sourceAssetGUID: 8b6f7a826c28d4868bda812f136b07e4
     buildTimeAssetPath: Assets/Content/Models/Beach Essentials/Textures/Posts.png
-  - fileID: 253
+  - fileID: 252
     classID: 28
     packedSize: 174912
     sourceAssetGUID: 8c3750f1e27c5734ea425abc31e86fb8
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00125-texture.png
-  - fileID: 254
+  - fileID: 253
     classID: 28
     packedSize: 43808
     sourceAssetGUID: 8cb51554d8ccad541af787104b27c0cd
     buildTimeAssetPath: Assets/VRCPrefabs/KurotoriUdonKart/Models/Textures/occupied.png
-  - fileID: 255
+  - fileID: 254
     classID: 28
     packedSize: 87520
     sourceAssetGUID: 8ce0820be5dd288459d4cc0d3af01d95
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00109-texture.png
-  - fileID: 256
+  - fileID: 255
     classID: 28
     packedSize: 174896
     sourceAssetGUID: 8d9f16776390d6345a05a946689a68c9
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00049-texture.png
-  - fileID: 257
+  - fileID: 256
     classID: 28
     packedSize: 87520
     sourceAssetGUID: 8e57b7d2031b63f49a9fc182e599a1fb
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00215-texture.png
-  - fileID: 258
+  - fileID: 257
     classID: 28
     packedSize: 174912
     sourceAssetGUID: 8ee75e711b5713044ab00f158214d465
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00133-texture.png
-  - fileID: 259
+  - fileID: 258
     classID: 28
     packedSize: 87520
     sourceAssetGUID: 8f3a4196994bc4d4cba72a15ca602590
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00173-texture.png
-  - fileID: 260
+  - fileID: 259
     classID: 28
     packedSize: 174912
     sourceAssetGUID: 9135b6d3bee83564fa53c4ea8c23a9ac
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00129-texture.png
-  - fileID: 261
+  - fileID: 260
     classID: 28
     packedSize: 87520
     sourceAssetGUID: 9148bf32c7a17954a84a21770d403564
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00177-texture.png
-  - fileID: 262
+  - fileID: 261
     classID: 28
     packedSize: 87520
     sourceAssetGUID: 9454c7c6d390f4d4cb3112187f4aa28f
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00123-texture.png
-  - fileID: 263
+  - fileID: 262
     classID: 28
     packedSize: 174912
     sourceAssetGUID: 945ee8002ebd8b045a1823cca311b938
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00157-texture.png
-  - fileID: 264
+  - fileID: 263
     classID: 28
     packedSize: 2796368
     sourceAssetGUID: 94abaf16d61267f4bae9d848db3d6cd2
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford_campus_2020_smaller_towers_AlbedoTransparency.png
-  - fileID: 265
+  - fileID: 264
     classID: 28
     packedSize: 174912
     sourceAssetGUID: 95b309f8225a8ef4c9d2bd23049bce15
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00117-texture.png
-  - fileID: 266
+  - fileID: 265
     classID: 28
     packedSize: 108
     sourceAssetGUID: 98baae691215eb546a697ff7d942a5bb
     buildTimeAssetPath: Assets/VRChat/Udon/ReferenceDocs/_static/fonts/Lato-Regular.ttf
-  - fileID: 267
+  - fileID: 266
     classID: 28
     packedSize: 87520
     sourceAssetGUID: 98f1cfec9e9b23040a5f24a4c0432b14
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00199-texture.png
-  - fileID: 268
+  - fileID: 267
     classID: 28
     packedSize: 174912
     sourceAssetGUID: 995233d0ed358a4429a43ce50b570047
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00209-texture.png
-  - fileID: 269
+  - fileID: 268
     classID: 28
     packedSize: 87520
     sourceAssetGUID: 99eafee29514631449dee36369177b07
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00191-texture.png
-  - fileID: 270
+  - fileID: 269
     classID: 28
     packedSize: 43804
     sourceAssetGUID: 9ac72781e1ca84d46840b93bf2df262b
     buildTimeAssetPath: Assets/VRCPrefabs/KurotoriUdonKart/Models/Textures/ride.png
-  - fileID: 271
+  - fileID: 270
     classID: 28
     packedSize: 174912
     sourceAssetGUID: 9b2bdf363e33c5f459b4ed73e226c3b2
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00211-texture.png
-  - fileID: 272
+  - fileID: 271
     classID: 28
     packedSize: 174912
     sourceAssetGUID: 9b67327435e0843418d30b821e004b28
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00069-texture.png
-  - fileID: 273
+  - fileID: 272
     classID: 28
     packedSize: 812
     sourceAssetGUID: 9d0b29cecf2678b41982d2173d3670ff
     buildTimeAssetPath: Assets/VRChat/VRCSDK/Sample Assets/Prototyping/Textures/SwatchWhiteAlbedo.png
-  - fileID: 274
+  - fileID: 273
     classID: 28
     packedSize: 87520
     sourceAssetGUID: a00b966f6c9fb134f9ca8cc40cb1e583
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00197-texture.png
-  - fileID: 275
+  - fileID: 274
     classID: 28
     packedSize: 87520
     sourceAssetGUID: a12381006b44a2945ae20d9b7d1d271e
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00181-texture.png
-  - fileID: 276
+  - fileID: 275
     classID: 28
     packedSize: 2796368
     sourceAssetGUID: a22a40e706aa69a4a88cfbabde0bb2e6
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford_campus_2020_smaller_M_ground_AlbedoTransparency.png
-  - fileID: 277
+  - fileID: 276
     classID: 28
     packedSize: 1398228
     sourceAssetGUID: a34363582182e4d6fa8adc75d861df1f
     buildTimeAssetPath: Assets/Content/Models/Beach Essentials/Textures/Net.png
-  - fileID: 278
+  - fileID: 277
     classID: 28
     packedSize: 174912
     sourceAssetGUID: a4d1f2bcb736c0c4d82ff579fe0a6242
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00137-texture.png
-  - fileID: 279
+  - fileID: 278
     classID: 28
     packedSize: 87520
     sourceAssetGUID: a5a28c0ace278954b980aa769e8253fe
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00205-texture.png
-  - fileID: 280
+  - fileID: 279
     classID: 28
     packedSize: 105148
     sourceAssetGUID: a63b20b097c5fad4daff0305d754e985
     buildTimeAssetPath: Assets/VRCPrefabs/KurotoriUdonKart/Models/Textures/UdonKart_metsmt.png
-  - fileID: 281
+  - fileID: 280
     classID: 28
     packedSize: 87520
     sourceAssetGUID: ae2935c481df878448ab592b5c84df3a
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00121-texture.png
-  - fileID: 282
+  - fileID: 281
     classID: 28
     packedSize: 87520
     sourceAssetGUID: ae5fc326a547bf443afe36ed114a36b5
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00194-texture.png
-  - fileID: 283
+  - fileID: 282
     classID: 28
     packedSize: 174912
     sourceAssetGUID: af7c0570bce3c7549bdf77a1111fb982
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00009-texture.png
-  - fileID: 284
+  - fileID: 283
     classID: 28
     packedSize: 72224
     sourceAssetGUID: afac43e25b65f6946b34f361eacda2f6
     buildTimeAssetPath: Assets/VRCPrefabs/_Childofthebeast/Games/BeerPong/Textures/WoodFloor
       - baseColor.png
-  - fileID: 285
+  - fileID: 284
     classID: 28
     packedSize: 2796384
     sourceAssetGUID: b603a42a98422144c8607ecd81f7c657
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford_campus_2020_smaller_engineering-quad-walls_AlbedoTransparency.png
-  - fileID: 286
+  - fileID: 285
     classID: 28
     packedSize: 174912
     sourceAssetGUID: bfc4d3c1722361747904f94527b257da
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00221-texture.png
-  - fileID: 287
+  - fileID: 286
     classID: 28
     packedSize: 87520
     sourceAssetGUID: c2a95d4743edb1b4fa0d33f98964dc1a
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00051-texture.png
-  - fileID: 288
+  - fileID: 287
     classID: 28
     packedSize: 2796376
     sourceAssetGUID: c982d6939bfd0d74da6826d436307ce4
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford_campus_2020_smaller_sandstone-walls_AlbedoTransparency.png
-  - fileID: 289
+  - fileID: 288
     classID: 28
     packedSize: 87520
     sourceAssetGUID: ca04c23928c25a245905202cdb132eb1
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00204-texture.png
-  - fileID: 290
+  - fileID: 289
     classID: 28
     packedSize: 1398232
     sourceAssetGUID: cce52e6104f0d42b2a802041da4c524c
     buildTimeAssetPath: Assets/Content/Models/Beach Essentials/Textures/Plastic.tif
-  - fileID: 291
+  - fileID: 290
     classID: 28
     packedSize: 87520
     sourceAssetGUID: cf619d3d2e7588c4693f15a47f596094
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00179-texture.png
-  - fileID: 292
+  - fileID: 291
     classID: 28
     packedSize: 174912
     sourceAssetGUID: cf9d3bb9162cc3043a6f4a0598b58967
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00151-texture.png
-  - fileID: 293
+  - fileID: 292
     classID: 28
     packedSize: 43804
     sourceAssetGUID: cfd98d20513b40d4c96606db206d6d1f
     buildTimeAssetPath: Assets/VRCPrefabs/KurotoriUdonKart/Models/Textures/free.png
-  - fileID: 294
+  - fileID: 293
     classID: 28
     packedSize: 1398236
     sourceAssetGUID: d158d3939027948e8b28c26ac4ad2802
     buildTimeAssetPath: Assets/Content/Models/Beach Essentials/Textures/Beachball2.png
-  - fileID: 295
+  - fileID: 294
     classID: 28
     packedSize: 1398236
     sourceAssetGUID: d2ae59efa9033445791b2f14cc8591df
     buildTimeAssetPath: Assets/Content/Models/Beach Essentials/Textures/whitewood.png
-  - fileID: 296
+  - fileID: 295
     classID: 28
     packedSize: 1398232
     sourceAssetGUID: d3d0922c68c5f43bd9e715dcdc5d99a4
     buildTimeAssetPath: Assets/Content/Models/Beach Essentials/Textures/Denim.png
-  - fileID: 297
+  - fileID: 296
     classID: 28
     packedSize: 87520
     sourceAssetGUID: d3d535630534f3a45868b5e225f743e6
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00176-texture.png
-  - fileID: 298
+  - fileID: 297
     classID: 28
     packedSize: 174912
     sourceAssetGUID: d5a9b257ffdc74d4e88d013fb2330f23
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00095-texture.png
-  - fileID: 299
+  - fileID: 298
     classID: 28
     packedSize: 87520
     sourceAssetGUID: d75fa8fe2a3110d48b72b1e615977f90
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00065-texture.png
-  - fileID: 300
+  - fileID: 299
     classID: 28
     packedSize: 108
     sourceAssetGUID: d8a7948bc83b01f45ab5078c10dd8e04
     buildTimeAssetPath: Assets/VRChat/Udon/ReferenceDocs/_static/fonts/Lato-Bold.ttf
-  - fileID: 301
+  - fileID: 300
     classID: 28
     packedSize: 174912
     sourceAssetGUID: dc44fad8a05b8b349b0947aec13e8729
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00136-texture.png
-  - fileID: 302
+  - fileID: 301
     classID: 28
     packedSize: 174912
     sourceAssetGUID: ddfd99290a0e39044a89ef4d784ae598
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00015-texture.png
-  - fileID: 303
+  - fileID: 302
     classID: 28
     packedSize: 349656
     sourceAssetGUID: e08fc526de60d49158759fe5bcd4cedc
     buildTimeAssetPath: Assets/Content/Models/Beach Essentials/Textures/Chrome.png
-  - fileID: 304
+  - fileID: 303
     classID: 28
     packedSize: 108
     sourceAssetGUID: e3265ab4bf004d28a9537516768c1c75
     buildTimeAssetPath: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
-  - fileID: 305
-    classID: 28
-    packedSize: 87516
-    sourceAssetGUID: e6d5d38e83fb54d438dec5682979d65f
-    buildTimeAssetPath: Assets/Content/Models/Beach Essentials/Textures/Umbrella2.png
-  - fileID: 306
+  - fileID: 304
     classID: 28
     packedSize: 87520
     sourceAssetGUID: e96f8a952d1aa59439fd5c2ab63e2e0f
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00185-texture.png
-  - fileID: 307
+  - fileID: 305
     classID: 28
     packedSize: 43824
     sourceAssetGUID: eb4d63830e7920d48891ee4b981bf727
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00087-texture.png
-  - fileID: 308
+  - fileID: 306
     classID: 28
     packedSize: 233512
     sourceAssetGUID: ee01ab70559777a4996325ad4ce13994
     buildTimeAssetPath: Assets/VRCPrefabs/KurotoriUdonKart/Models/Textures/UdonKart_nrm.png
-  - fileID: 309
+  - fileID: 307
     classID: 28
     packedSize: 668108
     sourceAssetGUID: ef9740b790bc11a42a6e3be3d95c916f
     buildTimeAssetPath: Assets/VRCPrefabs/_Childofthebeast/GithubLogo.png
-  - fileID: 310
+  - fileID: 308
     classID: 28
     packedSize: 87520
     sourceAssetGUID: f132aae30ff9a5f428ca5bbf58afca65
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00207-texture.png
-  - fileID: 311
+  - fileID: 309
     classID: 28
     packedSize: 174912
     sourceAssetGUID: f350a21d65af30b4299f41fef69bb6cc
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00068-texture.png
-  - fileID: 312
+  - fileID: 310
     classID: 28
     packedSize: 174896
     sourceAssetGUID: f6757ad57c777834d8896aa0be08fcb8
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00119-texture.png
-  - fileID: 313
+  - fileID: 311
     classID: 28
     packedSize: 174896
     sourceAssetGUID: fbcda1433126c5f438e88c4755a3cdaa
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00113-texture.png
-  - fileID: 314
+  - fileID: 312
     classID: 28
     packedSize: 87520
     sourceAssetGUID: fced75d4d55c3d14b9ce571fdd5c347b
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbm/stanford7-00141-texture.png
-  - fileID: 315
+  - fileID: 313
     classID: 28
     packedSize: 174912
     sourceAssetGUID: ffed944801b3443688d6a8e5c42ad4c2
     buildTimeAssetPath: Assets/Content/Models/Beach Essentials/Textures/volleyballnormal.png
-  - fileID: 316
+  - fileID: 314
     classID: 28
     packedSize: 120
     sourceAssetGUID: 2e498d1c8094910479dc3e1b768306a4
     buildTimeAssetPath: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans
       SDF - Fallback.asset
-  - fileID: 317
+  - fileID: 315
     classID: 28
     packedSize: 1048696
     sourceAssetGUID: 8f586378b4e144a9851e7b34d9b748ee
     buildTimeAssetPath: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans
       SDF.asset
-  - fileID: 318
+  - fileID: 316
     classID: 43
     packedSize: 27396
     sourceAssetGUID: 163bafb9dd3d945e79eb4aef7d9a3822
     buildTimeAssetPath: Assets/Content/Models/Beach Essentials/Meshes/PicnicTable.fbx
-  - fileID: 319
+  - fileID: 317
     classID: 43
     packedSize: 9688
     sourceAssetGUID: 29aefd441fba9a8489c06c8ffb3c47ee
     buildTimeAssetPath: Assets/VRCPrefabs/_Childofthebeast/Games/BeerPong/Meshes/BeepPong/BeerPong_Table.fbx
-  - fileID: 320
+  - fileID: 318
     classID: 43
     packedSize: 35352
     sourceAssetGUID: 39137c61c5ac534468779b864edad651
     buildTimeAssetPath: Assets/Content/Models/SXR Interactable.fbx
-  - fileID: 321
+  - fileID: 319
     classID: 43
     packedSize: 104904
     sourceAssetGUID: 3a49c65a6914d3e4fbab9122ae721278
     buildTimeAssetPath: Assets/Content/Models/SXR Logos/sxr logo square.fbx
-  - fileID: 322
+  - fileID: 320
     classID: 43
-    packedSize: 7293320
+    packedSize: 7285340
     sourceAssetGUID: 563fd8272675074469437f7b724690a5
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbx
-  - fileID: 323
+  - fileID: 321
     classID: 43
     packedSize: 65800
     sourceAssetGUID: 5d1f7a64cdc25914c8670493bff4cf14
     buildTimeAssetPath: Assets/Content/Models/SXR Logos/sxr logo text only.fbx
-  - fileID: 324
+  - fileID: 322
     classID: 43
     packedSize: 65200
     sourceAssetGUID: 5eeb536a87883174ba2e344668cd6317
     buildTimeAssetPath: Assets/Content/Models/SXR Logos/rabbit hole logo.fbx
-  - fileID: 325
+  - fileID: 323
     classID: 43
     packedSize: 88736
     sourceAssetGUID: 61e4ee45dba407249a620d8fd24184ce
     buildTimeAssetPath: Assets/VRCPrefabs/KurotoriUdonKart/Models/UdonKart.fbx
-  - fileID: 326
+  - fileID: 324
     classID: 43
     packedSize: 1616
     sourceAssetGUID: 682c341ead266b14389e856bb07af056
     buildTimeAssetPath: Assets/VRCPrefabs/KurotoriUdonKart/Models/BoxSwtich.obj
-  - fileID: 327
+  - fileID: 325
+    classID: 43
+    packedSize: 59944
+    sourceAssetGUID: 749893d2eefe544fa9e84282bae1e34c
+    buildTimeAssetPath: Assets/Content/Models/Beach Essentials/Meshes/Umbrella.fbx
+  - fileID: 326
     classID: 43
     packedSize: 2356
     sourceAssetGUID: b243b844d7a80a746b855eca5b0582ca
     buildTimeAssetPath: Assets/VRCPrefabs/QvPen/Mesh/qv_pen.fbx
-  - fileID: 328
+  - fileID: 327
     classID: 43
     packedSize: 27824
     sourceAssetGUID: bab8158576ab1214ab058ab23c00b318
     buildTimeAssetPath: Assets/VRCPrefabs/_Childofthebeast/Games/BeerPong/Meshes/BeepPong/Beerpong_Cup.fbx
-  - fileID: 329
+  - fileID: 328
     classID: 43
     packedSize: 780
     sourceAssetGUID: bd83bee821a1a89488f004c9dc04b5b4
     buildTimeAssetPath: Assets/VRCPrefabs/QvPen/Mesh/qv_eraser.fbx
-  - fileID: 330
+  - fileID: 329
     classID: 43
     packedSize: 9124
     sourceAssetGUID: c71923256946c49c593eeeb3adb0590b
     buildTimeAssetPath: Assets/Content/Models/Beach Essentials/Meshes/Volleyball.fbx
-  - fileID: 331
+  - fileID: 330
     classID: 43
     packedSize: 13100
     sourceAssetGUID: f88b3d4b18f3b4e91bd18e5d4dcc1469
     buildTimeAssetPath: Assets/Content/Models/Beach Essentials/Meshes/Beachball.fbx
-  - fileID: 332
+  - fileID: 331
     classID: 43
     packedSize: 18196
     sourceAssetGUID: 61e4ee45dba407249a620d8fd24184ce
     buildTimeAssetPath: Assets/VRCPrefabs/KurotoriUdonKart/Models/UdonKart.fbx
+  - fileID: 332
+    classID: 43
+    packedSize: 104416
+    sourceAssetGUID: 749893d2eefe544fa9e84282bae1e34c
+    buildTimeAssetPath: Assets/Content/Models/Beach Essentials/Meshes/Umbrella.fbx
   - fileID: 333
     classID: 43
     packedSize: 17032
@@ -1859,7 +1859,7 @@ PackedAssets:
     buildTimeAssetPath: Assets/VRCPrefabs/KurotoriUdonKart/Models/UdonKart.fbx
   - fileID: 345
     classID: 43
-    packedSize: 5068712
+    packedSize: 5068472
     sourceAssetGUID: 563fd8272675074469437f7b724690a5
     buildTimeAssetPath: Assets/Content/Models/stanford_mainquad.fbx
   - fileID: 346
@@ -1879,7 +1879,7 @@ PackedAssets:
     buildTimeAssetPath: Resources/unity_builtin_extra
   - fileID: 349
     classID: 48
-    packedSize: 3892744
+    packedSize: 3455676
     sourceAssetGUID: 0000000000000000f000000000000000
     buildTimeAssetPath: Resources/unity_builtin_extra
   - fileID: 350
@@ -1924,104 +1924,104 @@ PackedAssets:
     buildTimeAssetPath: Assets/VRChat/VRCSDK/Sample Assets/Shaders/VRChat-Sprites-Diffuse.shader
   - fileID: 358
     classID: 48
+    packedSize: 10844
+    sourceAssetGUID: affc81f3d164d734d8f13053effb1c5c
+    buildTimeAssetPath: Assets/VRChat/VRCSDK/Sample Assets/Shaders/Mobile/VRChat-Mobile-ToonLit.shader
+  - fileID: 359
+    classID: 48
     packedSize: 4184
     sourceAssetGUID: c0d3cb006bb294142bef136f492f2568
     buildTimeAssetPath: Assets/VRChat/VRCSDK/Sample Assets/Shaders/Mobile/VRChat-Mobile-Skybox.shader
-  - fileID: 359
+  - fileID: 360
     classID: 48
     packedSize: 21484
     sourceAssetGUID: fe393ace9b354375a9cb14cdbbc28be4
     buildTimeAssetPath: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
-  - fileID: 360
+  - fileID: 361
     classID: 49
     packedSize: 24
     sourceAssetGUID: 5b3d8961b3eb9c748b9157f0f6b0d435
     buildTimeAssetPath: Assets/VRCPrefabs/QvPen/version.txt
-  - fileID: 361
+  - fileID: 362
     classID: 83
     packedSize: 180
     sourceAssetGUID: 3ca27ad294812cc4fbaf68a9b401accb
     buildTimeAssetPath: Assets/Content/Sounds/mixkit-calm-park-with-people-and-children-367.wav
-  - fileID: 362
+  - fileID: 363
+    classID: 83
+    packedSize: 152
+    sourceAssetGUID: 61c54ade70680c6439e2715c97407de9
+    buildTimeAssetPath: Assets/Content/Sounds/428156__higgs01__yay.wav
+  - fileID: 364
+    classID: 83
+    packedSize: 140
+    sourceAssetGUID: 6af55caaa8567c340ad30cb6b2576e56
+    buildTimeAssetPath: Assets/Content/Sounds/Bird Up.ogg
+  - fileID: 365
     classID: 83
     packedSize: 180
     sourceAssetGUID: b46fc8568c912464d95ec9226194742b
     buildTimeAssetPath: Assets/Content/Sounds/328138__kasperaugusttopp__traffic-1-bikes-cars.wav
-  - fileID: 363
+  - fileID: 366
     classID: 83
     packedSize: 164
     sourceAssetGUID: dad42e6e31eb38642b5f321dbae9a346
     buildTimeAssetPath: Assets/Content/Sounds/444904__mars-98__park-ambience.wav
-  - fileID: 364
+  - fileID: 367
+    classID: 83
+    packedSize: 172
+    sourceAssetGUID: dba1110079cebc74db0d4b461791c1d0
+    buildTimeAssetPath: Assets/Content/Sounds/final-fantasy-v-music-victory-fanfare.mp3
+  - fileID: 368
     classID: 83
     packedSize: 176
     sourceAssetGUID: fa344bc7bf384ef4b89aa880c55b5af0
     buildTimeAssetPath: Assets/Content/Sounds/536219__ambientsoundapp__bicycles-passing.wav
-  - fileID: 365
+  - fileID: 369
     classID: 89
     packedSize: 4194576
     sourceAssetGUID: 24ad7821f1906334db0fe9369ab1b359
     buildTimeAssetPath: Assets/Scenes/Stanford Quad/ReflectionProbe-2.png
-  - fileID: 366
+  - fileID: 370
     classID: 89
     packedSize: 4194576
     sourceAssetGUID: 6993ad7718506854d9070205b1d2a813
     buildTimeAssetPath: Assets/Scenes/Stanford Quad/ReflectionProbe-0.png
-  - fileID: 367
+  - fileID: 371
     classID: 89
     packedSize: 4194576
     sourceAssetGUID: aa822502bcda2764887c2ead8f98145c
     buildTimeAssetPath: Assets/Scenes/Stanford Quad/ReflectionProbe-1.png
-  - fileID: 368
+  - fileID: 372
     classID: 89
     packedSize: 6291644
     sourceAssetGUID: ed02c437a13f2df4cba21bd4de277f20
     buildTimeAssetPath: Assets/Content/Textures/stanford hdri.exr
-  - fileID: 369
+  - fileID: 373
     classID: 89
     packedSize: 131424
     sourceAssetGUID: ffe7311e8fc65f344b7896ee9938ce6c
     buildTimeAssetPath: Assets/Scenes/Stanford Quad/ReflectionProbe-3.exr
-  - fileID: 370
+  - fileID: 374
     classID: 115
     packedSize: 100
     sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
     buildTimeAssetPath: Assets/VRChat/VRCSDK/Plugins/VRCSDK3.dll
-  - fileID: 371
+  - fileID: 375
     classID: 115
     packedSize: 92
     sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
     buildTimeAssetPath: Assets/VRChat/VRCSDK/Plugins/VRCSDK3.dll
-  - fileID: 372
+  - fileID: 376
     classID: 115
     packedSize: 96
     sourceAssetGUID: 4ecd63eff847044b68db9453ce219299
     buildTimeAssetPath: Assets/VRChat/VRCSDK/Plugins/VRCCore-Editor.dll
-  - fileID: 373
-    classID: 115
-    packedSize: 88
-    sourceAssetGUID: f70555f144d8491a825f0804e09c671c
-    buildTimeAssetPath: C:/Program Files/Unity/Hub/Editor/2018.4.20f1/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll
-  - fileID: 374
-    classID: 115
-    packedSize: 88
-    sourceAssetGUID: f70555f144d8491a825f0804e09c671c
-    buildTimeAssetPath: C:/Program Files/Unity/Hub/Editor/2018.4.20f1/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll
-  - fileID: 375
-    classID: 115
-    packedSize: 104
-    sourceAssetGUID: f70555f144d8491a825f0804e09c671c
-    buildTimeAssetPath: C:/Program Files/Unity/Hub/Editor/2018.4.20f1/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll
-  - fileID: 376
-    classID: 115
-    packedSize: 116
-    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
-    buildTimeAssetPath: Assets/VRChat/VRCSDK/Plugins/VRCSDK3.dll
   - fileID: 377
     classID: 115
-    packedSize: 108
-    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
-    buildTimeAssetPath: Assets/VRChat/VRCSDK/Plugins/VRCSDK3.dll
+    packedSize: 88
+    sourceAssetGUID: f70555f144d8491a825f0804e09c671c
+    buildTimeAssetPath: C:/Program Files/Unity/Hub/Editor/2018.4.20f1/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll
   - fileID: 378
     classID: 115
     packedSize: 88
@@ -2029,52 +2029,52 @@ PackedAssets:
     buildTimeAssetPath: C:/Program Files/Unity/Hub/Editor/2018.4.20f1/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll
   - fileID: 379
     classID: 115
+    packedSize: 104
+    sourceAssetGUID: f70555f144d8491a825f0804e09c671c
+    buildTimeAssetPath: C:/Program Files/Unity/Hub/Editor/2018.4.20f1/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll
+  - fileID: 380
+    classID: 115
+    packedSize: 116
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Assets/VRChat/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 381
+    classID: 115
     packedSize: 108
     sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
     buildTimeAssetPath: Assets/VRChat/VRCSDK/Plugins/VRCSDK3.dll
-  - fileID: 380
+  - fileID: 382
+    classID: 115
+    packedSize: 88
+    sourceAssetGUID: f70555f144d8491a825f0804e09c671c
+    buildTimeAssetPath: C:/Program Files/Unity/Hub/Editor/2018.4.20f1/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll
+  - fileID: 383
+    classID: 115
+    packedSize: 108
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Assets/VRChat/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 384
     classID: 115
     packedSize: 88
     sourceAssetGUID: 45115577ef41a5b4ca741ed302693907
     buildTimeAssetPath: Assets/VRChat/Udon/UdonBehaviour.cs
-  - fileID: 381
+  - fileID: 385
     classID: 115
     packedSize: 100
     sourceAssetGUID: 71c1514a6bd24e1e882cebbe1904ce04
     buildTimeAssetPath: Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_FontAsset.cs
-  - fileID: 382
+  - fileID: 386
     classID: 115
     packedSize: 92
     sourceAssetGUID: 9541d86e2fd84c1d9990edf0852d74ab
     buildTimeAssetPath: Packages/com.unity.textmeshpro/Scripts/Runtime/TextMeshPro.cs
-  - fileID: 383
+  - fileID: 387
     classID: 115
     packedSize: 128
     sourceAssetGUID: bf61d954ecb803046953c666facfb904
     buildTimeAssetPath: Assets/VRChat/Udon/ProgramSources/SerializedUdonProgramAsset.cs
-  - fileID: 384
-    classID: 115
-    packedSize: 80
-    sourceAssetGUID: f70555f144d8491a825f0804e09c671c
-    buildTimeAssetPath: C:/Program Files/Unity/Hub/Editor/2018.4.20f1/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll
-  - fileID: 385
-    classID: 115
-    packedSize: 92
-    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
-    buildTimeAssetPath: Assets/VRChat/VRCSDK/Plugins/VRCSDK3.dll
-  - fileID: 386
-    classID: 115
-    packedSize: 128
-    sourceAssetGUID: f70555f144d8491a825f0804e09c671c
-    buildTimeAssetPath: C:/Program Files/Unity/Hub/Editor/2018.4.20f1/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll
-  - fileID: 387
-    classID: 115
-    packedSize: 104
-    sourceAssetGUID: f70555f144d8491a825f0804e09c671c
-    buildTimeAssetPath: C:/Program Files/Unity/Hub/Editor/2018.4.20f1/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll
   - fileID: 388
     classID: 115
-    packedSize: 88
+    packedSize: 80
     sourceAssetGUID: f70555f144d8491a825f0804e09c671c
     buildTimeAssetPath: C:/Program Files/Unity/Hub/Editor/2018.4.20f1/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll
   - fileID: 389
@@ -2084,227 +2084,257 @@ PackedAssets:
     buildTimeAssetPath: Assets/VRChat/VRCSDK/Plugins/VRCSDK3.dll
   - fileID: 390
     classID: 115
-    packedSize: 96
+    packedSize: 128
     sourceAssetGUID: f70555f144d8491a825f0804e09c671c
     buildTimeAssetPath: C:/Program Files/Unity/Hub/Editor/2018.4.20f1/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll
   - fileID: 391
+    classID: 115
+    packedSize: 104
+    sourceAssetGUID: f70555f144d8491a825f0804e09c671c
+    buildTimeAssetPath: C:/Program Files/Unity/Hub/Editor/2018.4.20f1/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll
+  - fileID: 392
+    classID: 115
+    packedSize: 88
+    sourceAssetGUID: f70555f144d8491a825f0804e09c671c
+    buildTimeAssetPath: C:/Program Files/Unity/Hub/Editor/2018.4.20f1/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll
+  - fileID: 393
+    classID: 115
+    packedSize: 92
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Assets/VRChat/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 394
+    classID: 115
+    packedSize: 96
+    sourceAssetGUID: f70555f144d8491a825f0804e09c671c
+    buildTimeAssetPath: C:/Program Files/Unity/Hub/Editor/2018.4.20f1/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll
+  - fileID: 395
     classID: 128
     packedSize: 656686
     sourceAssetGUID: 98baae691215eb546a697ff7d942a5bb
     buildTimeAssetPath: Assets/VRChat/Udon/ReferenceDocs/_static/fonts/Lato-Regular.ttf
-  - fileID: 392
+  - fileID: 396
     classID: 128
     packedSize: 656674
     sourceAssetGUID: d8a7948bc83b01f45ab5078c10dd8e04
     buildTimeAssetPath: Assets/VRChat/Udon/ReferenceDocs/_static/fonts/Lato-Bold.ttf
-  - fileID: 393
+  - fileID: 397
     classID: 128
     packedSize: 352462
     sourceAssetGUID: e3265ab4bf004d28a9537516768c1c75
     buildTimeAssetPath: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
-  - fileID: 394
+  - fileID: 398
     classID: 134
     packedSize: 36
     sourceAssetGUID: ebd513f343f97434294f4d0e3d56cbda
     buildTimeAssetPath: Assets/Physics/pm_Bouncy.physicMaterial
-  - fileID: 395
+  - fileID: 399
     classID: 134
     packedSize: 40
     sourceAssetGUID: 33d11d63ab09dad47ab81c9c43498036
     buildTimeAssetPath: Assets/Physics/pm_HighFriction.physicMaterial
-  - fileID: 396
-    classID: 134
-    packedSize: 36
-    sourceAssetGUID: c280faa3191b2f5469484064d3d2860b
-    buildTimeAssetPath: Assets/VRCPrefabs/_Childofthebeast/Games/BeerPong/Scripts/PingpongBall.physicMaterial
-  - fileID: 397
+  - fileID: 400
     classID: 134
     packedSize: 36
     sourceAssetGUID: 55727922535f7a84ca6f873c37703e99
     buildTimeAssetPath: Assets/VRCPrefabs/_Childofthebeast/Games/BeerPong/Scripts/pm_BeerCup.physicMaterial
-  - fileID: 398
+  - fileID: 401
+    classID: 134
+    packedSize: 36
+    sourceAssetGUID: 0b57ea5be9732754495cd59d81dea7c8
+    buildTimeAssetPath: Assets/VRCPrefabs/_Childofthebeast/Games/BeerPong/Scripts/pm_Ground.physicMaterial
+  - fileID: 402
+    classID: 134
+    packedSize: 40
+    sourceAssetGUID: c280faa3191b2f5469484064d3d2860b
+    buildTimeAssetPath: Assets/VRCPrefabs/_Childofthebeast/Games/BeerPong/Scripts/pm_PingpongBall.physicMaterial
+  - fileID: 403
     classID: 134
     packedSize: 32
     sourceAssetGUID: c3111cd011ad5694daa14a60017b8b2e
     buildTimeAssetPath: Assets/VRCPrefabs/_Childofthebeast/Games/BeerPong/Scripts/pm_Table.physicMaterial
-  - fileID: 399
+  - fileID: 404
     classID: 213
     packedSize: 564
     sourceAssetGUID: 0000000000000000f000000000000000
     buildTimeAssetPath: Resources/unity_builtin_extra
-  - fileID: 400
+  - fileID: 405
     classID: 213
     packedSize: 568
     sourceAssetGUID: 0000000000000000f000000000000000
     buildTimeAssetPath: Resources/unity_builtin_extra
-  - fileID: 401
+  - fileID: 406
     classID: 213
     packedSize: 628
     sourceAssetGUID: 0000000000000000f000000000000000
     buildTimeAssetPath: Resources/unity_builtin_extra
-  - fileID: 402
+  - fileID: 407
     classID: 213
     packedSize: 3272
     sourceAssetGUID: ef9740b790bc11a42a6e3be3d95c916f
     buildTimeAssetPath: Assets/VRCPrefabs/_Childofthebeast/GithubLogo.png
-  - fileID: 403
+  - fileID: 408
     classID: 258
     packedSize: 40
     sourceAssetGUID: 98b85551e94f40949871cdc3589ad537
     buildTimeAssetPath: Assets/Scenes/Stanford Quad/LightingData.asset
-  - fileID: 404
+  - fileID: 409
     classID: 363
-    packedSize: 1274032
+    packedSize: 497440
     sourceAssetGUID: 38b9123220c8c9b478d3c7abb404033d
     buildTimeAssetPath: Assets/Scenes/Stanford Quad/OcclusionCullingData.asset
-  - fileID: 405
+  - fileID: 410
+    classID: 114
+    packedSize: 23724
+    sourceAssetGUID: 34ec7282af1290045a4c8b0dbc245a75
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/ab30b3d9193a113419b1548a2c100af8.asset
+  - fileID: 411
     classID: 114
     packedSize: 1144
     sourceAssetGUID: 2e498d1c8094910479dc3e1b768306a4
     buildTimeAssetPath: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans
       SDF - Fallback.asset
-  - fileID: 406
+  - fileID: 412
     classID: 114
     packedSize: 27752
     sourceAssetGUID: 8f586378b4e144a9851e7b34d9b748ee
     buildTimeAssetPath: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans
       SDF.asset
-  - fileID: 407
+  - fileID: 413
     classID: 114
     packedSize: 65188
     sourceAssetGUID: 61cd7479c689cbc40b60c91bc213685c
     buildTimeAssetPath: Assets/VRChat/SerializedUdonPrograms/0133057ca1dddce45824d0aa942ebc3a.asset
-  - fileID: 408
+  - fileID: 414
     classID: 114
     packedSize: 16972
     sourceAssetGUID: f892fa6836e860e499aaba02a062e877
     buildTimeAssetPath: Assets/VRChat/SerializedUdonPrograms/030f91795ebbbad45946bef49d7c3ffb.asset
-  - fileID: 409
+  - fileID: 415
     classID: 114
     packedSize: 48272
     sourceAssetGUID: dbecc73e1e307bd4d8a3c00260136bfc
     buildTimeAssetPath: Assets/VRChat/SerializedUdonPrograms/05101f97aca328e4bbc697c0bcd81521.asset
-  - fileID: 410
+  - fileID: 416
     classID: 114
     packedSize: 208056
     sourceAssetGUID: 952b69ce70211ec46bed5f588545f497
     buildTimeAssetPath: Assets/VRChat/SerializedUdonPrograms/1064dc79ec16c944793e0bfc45718c46.asset
-  - fileID: 411
+  - fileID: 417
     classID: 114
     packedSize: 46920
     sourceAssetGUID: c39fd7b9ffd645541b4374193103d9ff
     buildTimeAssetPath: Assets/VRChat/SerializedUdonPrograms/13c9658a51a2e2440afc579648651cd7.asset
-  - fileID: 412
+  - fileID: 418
     classID: 114
     packedSize: 52424
     sourceAssetGUID: fe16e6b5123857f4c895b683ee46ced5
     buildTimeAssetPath: Assets/VRChat/SerializedUdonPrograms/34717db7eb8e04a40ac14cc45cf29bcb.asset
-  - fileID: 413
+  - fileID: 419
     classID: 114
     packedSize: 12496
     sourceAssetGUID: a94f52b9354a6194f829498c7d91fd72
     buildTimeAssetPath: Assets/VRChat/SerializedUdonPrograms/409c3391a633abc4dbff1701d3e6152a.asset
-  - fileID: 414
+  - fileID: 420
     classID: 114
     packedSize: 36232
     sourceAssetGUID: dd681543775512040bfc589adbaf6468
     buildTimeAssetPath: Assets/VRChat/SerializedUdonPrograms/4ef80657f5aad394ebfcd932d6327d02.asset
-  - fileID: 415
+  - fileID: 421
     classID: 114
     packedSize: 133624
     sourceAssetGUID: d84347c882959194a8f31c2b2b9f73a3
     buildTimeAssetPath: Assets/VRChat/SerializedUdonPrograms/567020c04eb1f4b4ea28e29eded29ee3.asset
-  - fileID: 416
+  - fileID: 422
     classID: 114
     packedSize: 19272
     sourceAssetGUID: bf3e3f2ee93ceb54ab0ca2dc4fb82296
     buildTimeAssetPath: Assets/VRChat/SerializedUdonPrograms/5adfb8009e746f34bb5c073ad139eff1.asset
-  - fileID: 417
+  - fileID: 423
     classID: 114
-    packedSize: 168424
+    packedSize: 167792
     sourceAssetGUID: de76961e807eb6542afaa6fc7049b536
     buildTimeAssetPath: Assets/VRChat/SerializedUdonPrograms/7aec01fa2f964884d98233a8fffb1a44.asset
-  - fileID: 418
+  - fileID: 424
     classID: 114
     packedSize: 20536
     sourceAssetGUID: 0cc9e4c452079c74f8849735a563e848
     buildTimeAssetPath: Assets/VRChat/SerializedUdonPrograms/80c0335f98d9b0f4da456ce13438c83c.asset
-  - fileID: 419
+  - fileID: 425
     classID: 114
     packedSize: 87508
     sourceAssetGUID: 300900f0083549b499cc67d20a3b1f2b
     buildTimeAssetPath: Assets/VRChat/SerializedUdonPrograms/80df79815ac3b494592c5da022afd2cf.asset
-  - fileID: 420
+  - fileID: 426
     classID: 114
     packedSize: 27576
     sourceAssetGUID: 810eeb6ff49b34a449ab55ef4f8d4270
     buildTimeAssetPath: Assets/VRChat/SerializedUdonPrograms/8790eacaf133fc349970690de2dfa744.asset
-  - fileID: 421
+  - fileID: 427
     classID: 114
     packedSize: 13740
     sourceAssetGUID: 97b514c963717324ebd7748fcdda4b0a
     buildTimeAssetPath: Assets/VRChat/SerializedUdonPrograms/8f08002415518a74a965b4d882a3211c.asset
-  - fileID: 422
+  - fileID: 428
     classID: 114
     packedSize: 31396
     sourceAssetGUID: 2f1d03f2f04828c42886199864be1759
     buildTimeAssetPath: Assets/VRChat/SerializedUdonPrograms/936c71672a143ee46afaa4a027974094.asset
-  - fileID: 423
+  - fileID: 429
     classID: 114
     packedSize: 59064
     sourceAssetGUID: ea8905c0f3244ae409d91af7295f39ff
     buildTimeAssetPath: Assets/VRChat/SerializedUdonPrograms/9ee458d0096dbfb4587d59a7fc4e9149.asset
-  - fileID: 424
+  - fileID: 430
     classID: 114
     packedSize: 35120
     sourceAssetGUID: 59f9fc4b347631048ab6fbd7f8acbee8
     buildTimeAssetPath: Assets/VRChat/SerializedUdonPrograms/b1da3d0a1d171a9479f5df36efb95369.asset
-  - fileID: 425
+  - fileID: 431
     classID: 114
     packedSize: 25860
     sourceAssetGUID: 972e08ad03d0bf74fb93dca2af748d8d
     buildTimeAssetPath: Assets/VRChat/SerializedUdonPrograms/b813374c1e9cb9f458d11544b12dabe3.asset
-  - fileID: 426
+  - fileID: 432
     classID: 114
     packedSize: 19032
     sourceAssetGUID: 07950f9aa0b26244d925470610ca03f3
     buildTimeAssetPath: Assets/VRChat/SerializedUdonPrograms/c8df303ceb45ae84f85a11591f741734.asset
-  - fileID: 427
+  - fileID: 433
     classID: 114
     packedSize: 40572
     sourceAssetGUID: 0ba26559e1ae35a4ababaf7edaad6352
     buildTimeAssetPath: Assets/VRChat/SerializedUdonPrograms/c94f9c25e428bc341906e24997f7cf37.asset
-  - fileID: 428
+  - fileID: 434
     classID: 114
     packedSize: 46624
     sourceAssetGUID: 34932b5849d974844b7f616b8485e1cd
     buildTimeAssetPath: Assets/VRChat/SerializedUdonPrograms/e24c19eb034a4054b96ad3a9240d8283.asset
-  - fileID: 429
+  - fileID: 435
     classID: 114
     packedSize: 12856
     sourceAssetGUID: f435592acadff5b4c97f6ee74ee7a2eb
     buildTimeAssetPath: Assets/VRChat/SerializedUdonPrograms/e5e88b548c2e8d944a6ae4f342c78071.asset
-  - fileID: 430
+  - fileID: 436
     classID: 114
     packedSize: 28048
     sourceAssetGUID: 1dc0f0b7be6e8c54fb4d2fa9232a5e06
     buildTimeAssetPath: Assets/VRChat/SerializedUdonPrograms/ee6c775c585b4a1468681921d343c872.asset
-  - fileID: 431
+  - fileID: 437
     classID: 114
     packedSize: 11548
     sourceAssetGUID: 03066f1e0dea2084cbce1f866c4ef4f7
     buildTimeAssetPath: Assets/VRChat/SerializedUdonPrograms/f296ecebae0e89d4aa54d10057071c6f.asset
-  - fileID: 432
+  - fileID: 438
     classID: 114
     packedSize: 31412
     sourceAssetGUID: f30221c3374b35b47a7d43c9ab0d25f7
     buildTimeAssetPath: Assets/VRChat/SerializedUdonPrograms/f41d8b5380308b54cb46331364842d24.asset
-  - fileID: 433
+  - fileID: 439
     classID: 114
     packedSize: 30016
     sourceAssetGUID: 5e3910ef939917647b6c3317aa71e225
     buildTimeAssetPath: Assets/VRChat/SerializedUdonPrograms/f476772bf1db9c24a817ee4b2627c5d0.asset
---- !u!1126 &1126425535958270096
+--- !u!1126 &1126806276134547904
 PackedAssets:
   m_File: 5
   m_ShortPath: CAB-4e5e03382a04772bbbb9956d6af0ae0f
@@ -2320,12 +2350,27 @@ PackedAssets:
     packedSize: 112
     sourceAssetGUID: 00000000000000000000000000000000
     buildTimeAssetPath: 'Built-in AssetBundleManifest: AssetBundleManifest'
---- !u!1126 &1126927496250130970
+--- !u!1126 &1126821019499568942
 PackedAssets:
   m_File: 2
   m_ShortPath: BuildPlayer-Stanford Quad.resource
   m_Overhead: 0
   m_Contents:
+  - fileID: 0
+    classID: 83
+    packedSize: 13792
+    sourceAssetGUID: 61c54ade70680c6439e2715c97407de9
+    buildTimeAssetPath: Assets/Content/Sounds/428156__higgs01__yay.wav
+  - fileID: 0
+    classID: 83
+    packedSize: 15744
+    sourceAssetGUID: 6af55caaa8567c340ad30cb6b2576e56
+    buildTimeAssetPath: Assets/Content/Sounds/Bird Up.ogg
+  - fileID: 0
+    classID: 83
+    packedSize: 41024
+    sourceAssetGUID: dba1110079cebc74db0d4b461791c1d0
+    buildTimeAssetPath: Assets/Content/Sounds/final-fantasy-v-music-victory-fanfare.mp3
   - fileID: 0
     classID: 83
     packedSize: 272608
@@ -2346,7 +2391,7 @@ PackedAssets:
     packedSize: 1274848
     sourceAssetGUID: b46fc8568c912464d95ec9226194742b
     buildTimeAssetPath: Assets/Content/Sounds/328138__kasperaugusttopp__traffic-1-bikes-cars.wav
---- !u!382020655 &3324437308886922684
+--- !u!382020655 &3324437307990284944
 PluginBuildInfo:
   m_RuntimePlugins:
   - OVRPlugin
@@ -2414,12 +2459,12 @@ PluginBuildInfo:
   - UnityEditor.TestRunner
   - VRC.Udon.EditorBindings
   - UnityEditor.Timeline
---- !u!641289076 &4190729888905268394
+--- !u!641289076 &4190729890007014946
 AudioBuildInfo:
   m_IsAudioDisabled: 0
-  m_AudioClipCount: 4
+  m_AudioClipCount: 7
   m_AudioMixerCount: 0
---- !u!668709126 &4282348398056392912
+--- !u!668709126 &4282348398929799830
 BuiltAssetBundleInfoSet:
   bundleInfos:
   - bundleName: scene-standalonewindows64-stanford quad.vrcw

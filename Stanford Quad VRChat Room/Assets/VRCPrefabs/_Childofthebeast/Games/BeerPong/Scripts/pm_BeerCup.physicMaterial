@@ -9,6 +9,6 @@ PhysicMaterial:
   m_Name: pm_BeerCup
   dynamicFriction: 2
   staticFriction: 2
-  bounciness: 0.05
+  bounciness: 0.04
   frictionCombine: 0
   bounceCombine: 0

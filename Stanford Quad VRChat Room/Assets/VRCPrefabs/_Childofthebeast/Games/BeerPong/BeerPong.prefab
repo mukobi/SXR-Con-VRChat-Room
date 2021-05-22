@@ -1674,6 +1674,7 @@ GameObject:
   - component: {fileID: 2223313409447304868}
   - component: {fileID: 2223313409447304871}
   - component: {fileID: 2223313409447304856}
+  - component: {fileID: 2502405374063488271}
   m_Layer: 13
   m_Name: Ball
   m_TagString: Untagged
@@ -1842,6 +1843,19 @@ MonoBehaviour:
   - {fileID: 2223313409447304865}
   - {fileID: 2223313410335187647}
   publicVariablesSerializationDataFormat: 0
+--- !u!114 &2502405374063488271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2223313409447304865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1783056023, guid: 661092b4961be7145bfbe56e1e62337b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AllowCollisionOwnershipTransfer: 0
 --- !u!1 &2223313409465702273
 GameObject:
   m_ObjectHideFlags: 0
@@ -3968,6 +3982,7 @@ GameObject:
   - component: {fileID: 2223313410259847768}
   - component: {fileID: 2223313410259847771}
   - component: {fileID: 2223313410259847770}
+  - component: {fileID: 664881852600734126}
   m_Layer: 13
   m_Name: Ball
   m_TagString: Untagged
@@ -4136,6 +4151,19 @@ MonoBehaviour:
   - {fileID: 2223313410536818228}
   - {fileID: 2223313409787910674}
   publicVariablesSerializationDataFormat: 0
+--- !u!114 &664881852600734126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2223313410259847780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1783056023, guid: 661092b4961be7145bfbe56e1e62337b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AllowCollisionOwnershipTransfer: 0
 --- !u!1 &2223313410335187647
 GameObject:
   m_ObjectHideFlags: 0
